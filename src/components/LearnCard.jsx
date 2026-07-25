@@ -1,79 +1,91 @@
+import { useState } from 'react'
+
 export default function LearnCard({
   card,
   onBookmark,
   onLike,
   isBookmarked,
   isLiked,
+  offsetY,
   onTouchStart,
+  onTouchMove,
   onTouchEnd,
   onKeyDown,
-  canGoPrev
+  canGoPrev,
+  animating,
 }) {
   const [expanded, setExpanded] = useState(false)
 
   return (
-    <div
-      className="relative w-full h-full flex flex-col justify-end overflow-hidden select-none"
-      onTouchStart={onTouchStart}
-      onTouchEnd={onTouchEnd}
-      onKeyDown={onKeyDown}
-      tabIndex={0}
-    >
-      {/* Gradient background */}
-      <div className={`absolute inset-0 bg-gradient-to-b ${card.color}`} />
+    <div className="relative w-full h-full flex flex-col justify-end overflow-hidden select-none">
+      {/* Animated card */}
+      <div
+        className={`absolute inset-0 ${animating ? 'transition-transform duration-200 ease-out' : ''}`}
+        style={{
+          transform: `translateY(${offsetY}px)`,
+        }}
+        onTouchStart={onTouchStart}
+        onTouchMove={onTouchMove}
+        onTouchEnd={onTouchEnd}
+        onKeyDown={onKeyDown}
+        tabIndex={0}
+      >
+        {/* Gradient background */}
+        <div className={`absolute inset-0 bg-gradient-to-b ${card.color}`} />
 
-      {/* Decorative circles */}
-      <div className="absolute -top-20 -right-20 w-64 h-64 rounded-full bg-white/5" />
-      <div className="absolute -bottom-10 -left-10 w-48 h-48 rounded-full bg-white/5" />
+        {/* Decorative circles */}
+        <div className="absolute -top-20 -right-20 w-64 h-64 rounded-full bg-white/5" />
+        <div className="absolute -bottom-10 -left-10 w-48 h-48 rounded-full bg-white/5" />
 
-      {/* Content */}
-      <div className="relative z-10 px-6 pb-24 pt-20 flex flex-col justify-end min-h-full">
-        {/* Category badge */}
-        <span className="self-start px-3 py-1 rounded-full bg-white/15 text-white text-xs font-semibold mb-3 backdrop-blur-sm">
-          {card.category}
-        </span>
+        {/* Content */}
+        <div className="relative z-10 px-6 pb-24 pt-20 flex flex-col justify-end min-h-full">
+          {/* Category badge */}
+          <span className="self-start px-3 py-1 rounded-full bg-white/15 text-white text-xs font-semibold mb-3 backdrop-blur-sm">
+            {card.category}
+          </span>
 
-        {/* Tags */}
-        <div className="flex flex-wrap gap-1.5 mb-3">
-          {card.tags.map(tag => (
-            <span
-              key={tag}
-              className="px-2 py-0.5 rounded-full bg-white/10 text-white/70 text-[11px] backdrop-blur-sm"
-            >
-              #{tag}
-            </span>
-          ))}
-        </div>
+          {/* Tags */}
+          <div className="flex flex-wrap gap-1.5 mb-3">
+            {card.tags.map(tag => (
+              <span
+                key={tag}
+                className="px-2 py-0.5 rounded-full bg-white/10 text-white/70 text-[11px] backdrop-blur-sm"
+              >
+                #{tag}
+              </span>
+            ))}
+          </div>
 
-        {/* Age badge */}
-        <span className="self-start px-2 py-0.5 rounded bg-black/20 text-white/60 text-[11px] mb-4">
-          {card.age}
-        </span>
+          {/* Age badge */}
+          <span className="self-start px-2 py-0.5 rounded bg-black/20 text-white/60 text-[11px] mb-4">
+            {card.age}
+          </span>
 
-        {/* Title */}
-        <h1 className="text-2xl font-bold text-white leading-tight mb-3">
-          {card.title}
-        </h1>
+          {/* Title */}
+          <h1 className="text-2xl font-bold text-white leading-tight mb-3">
+            {card.title}
+          </h1>
 
-        {/* Summary */}
-        <div className="mb-4">
-          <p className={`text-white/90 text-base leading-relaxed transition-all ${expanded ? '' : 'line-clamp-5'}`}>
-            {card.summary}
+          {/* Summary */}
+          <div className="mb-4">
+            <p className={`text-white/90 text-base leading-relaxed transition-all ${expanded ? '' : 'line-clamp-5'}`}>
+              {card.summary}
+            </p>
+            {card.summary.length > 150 && (
+              <button
+                onClick={() => setExpanded(!expanded)}
+                className="text-white/70 text-sm mt-1 hover:text-white"
+              >
+                {expanded ? 'Show less' : 'Read more'}
+              </button>
+            )}
+          </div>
+
+          {/* Source */}
+          <p className="text-white/50 text-xs italic">
+            — {card.source}
           </p>
-          {card.summary.length > 150 && (
-            <button
-              onClick={() => setExpanded(!expanded)}
-              className="text-white/70 text-sm mt-1 hover:text-white"
-            >
-              {expanded ? 'Show less' : 'Read more'}
-            </button>
-          )}
         </div>
-
-        {/* Source */}
-        <p className="text-white/50 text-xs italic">
-          — {card.source}
-        </p>
       </div>
 
       {/* Action buttons */}
@@ -92,17 +104,12 @@ export default function LearnCard({
         </button>
       </div>
 
-      {/* Swipe indicators */}
-      {canGoPrev && (
-        <div className="absolute top-4 left-1/2 -translate-x-1/2 z-20 text-white/20 text-xs">
-          ▲
-        </div>
-      )}
-      <div className="absolute bottom-4 left-1/2 -translate-x-1/2 z-20 text-white/20 text-xs">
-        Swipe down ▼
+      {/* Swipe hints */}
+      <div className="absolute bottom-4 left-1/2 -translate-x-1/2 z-20 text-white/20 text-xs transition-opacity"
+        style={{ opacity: offsetY === 0 && !animating ? 0.6 : 0 }}
+      >
+        Drag up/down to navigate
       </div>
     </div>
   )
 }
-
-import { useState } from 'react'
