@@ -19,23 +19,26 @@ export default function Feed() {
   const [activeTag, setActiveTag] = useState(null)
   const [categories, setCategories] = useState(fallbackCategories)
   const [allTagsList, setAllTagsList] = useState(fallbackTags)
-  const [apiStatus, setApiStatus] = useState('loading') // 'loading' | 'online' | 'offline'
+  const [apiStatus, setApiStatus] = useState('loading')
 
-  // Load categories and tags from API
   useEffect(() => {
     Promise.all([
       fetchCategories().catch(() => null),
       fetchTags().catch(() => null),
     ]).then(([cats, tags]) => {
-      if (cats && cats.length) {
-        setCategories(cats)
-        setApiStatus('online')
-      } else {
-        setApiStatus('offline')
-      }
+      if (cats && cats.length) { setCategories(cats); setApiStatus('online') }
+      else { setApiStatus('offline') }
       if (tags && tags.length) setAllTagsList(tags)
     })
   }, [])
+
+  // Filter cards BEFORE passing to useSwipe
+  const filteredCards = useMemo(() => {
+    let cards = allCards
+    if (activeCategory) cards = cards.filter(c => c.category === activeCategory)
+    if (activeTag) cards = cards.filter(c => c.tags.includes(activeTag))
+    return cards
+  }, [activeCategory, activeTag])
 
   const {
     current,
@@ -58,66 +61,48 @@ export default function Feed() {
     handleTouchMove,
     handleTouchEnd,
     handleKeyDown,
-  } = useSwipe(allCards)
+    shuffled,
+    toggleShuffle,
+  } = useSwipe(filteredCards)  // <-- use filteredCards here
 
   if (!account) return <AccountPrompt onSetName={setAccountName} />
 
-  const filteredCards = useMemo(() => {
-    let cards = allCards
-    if (activeCategory) cards = cards.filter(c => c.category === activeCategory)
-    if (activeTag) cards = cards.filter(c => c.tags.includes(activeTag))
-    return cards
-  }, [activeCategory, activeTag])
+  const handleCardClick = (id) => { goToId(id); setTab('feed') }
 
-  const noMatch = current === null
-
-  const handleCardClick = (id) => {
-    goToId(id)
-    setTab('feed')
-  }
-
-  // Wrap addUserCard to also POST to API
   const handleSubmit = async (cardData) => {
     addUserCard(cardData)
     if (apiStatus === 'online') {
-      try {
-        const result = await createCard(cardData)
-        console.log('Card saved to backend:', result)
-      } catch (e) {
-        console.log('API unavailable, card saved locally only')
-      }
+      try { await createCard(cardData) }
+      catch (e) { console.log('API unavailable, saved locally') }
     }
   }
 
   return (
     <div className="h-screen w-screen bg-gray-900 text-white flex flex-col overflow-hidden">
-      {/* API badge */}
       {apiStatus === 'loading' && (
-        <div className="absolute top-0 left-0 right-0 z-50 bg-yellow-500/20 text-yellow-200 text-[10px] text-center py-0.5">
-          Connecting to backend...
-        </div>
+        <div className="absolute top-0 left-0 right-0 z-50 bg-yellow-500/20 text-yellow-200 text-[10px] text-center py-0.5">Connecting to backend...</div>
       )}
       {apiStatus === 'offline' && (
-        <div className="absolute top-0 left-0 right-0 z-50 bg-red-500/20 text-red-200 text-[10px] text-center py-0.5">
-          Backend offline — using local data
-        </div>
+        <div className="absolute top-0 left-0 right-0 z-50 bg-red-500/20 text-red-200 text-[10px] text-center py-0.5">Backend offline — using local data</div>
       )}
 
       <div className="flex-1 overflow-hidden relative">
         {tab === 'feed' && (
           <div className="h-full flex flex-col" onKeyDown={handleKeyDown}>
-            {/* Top bar */}
             <div className="relative z-20 pt-safe">
               <div className="flex items-center justify-between px-4 py-2">
                 <div className="flex items-center gap-2">
                   <h1 className="text-lg font-bold tracking-tight">LearnTok</h1>
-                  <span className="text-[11px] text-white/40 bg-white/10 px-2 py-0.5 rounded-full">
-                    {account}
-                  </span>
+                  <span className="text-[11px] text-white/40 bg-white/10 px-2 py-0.5 rounded-full">{account}</span>
                 </div>
-                <span className="text-sm text-white/50">
-                  {currentIndex + 1} / {total}
-                </span>
+                <div className="flex items-center gap-2">
+                  <button onClick={toggleShuffle}
+                    className={`text-sm transition-all ${shuffled ? 'text-green-400' : 'text-white/50 hover:text-white/80'}`}
+                  >
+                    {shuffled ? '🔀 On' : '🔀'}
+                  </button>
+                  <span className="text-sm text-white/50">{currentIndex + 1} / {total}</span>
+                </div>
               </div>
             </div>
             <ProgressBar progress={progress} />
@@ -143,7 +128,7 @@ export default function Feed() {
             </div>
 
             <div className="flex-1 relative overflow-hidden touch-none">
-              {noMatch ? (
+              {!current ? (
                 <div className="h-full flex items-center justify-center px-6">
                   <div className="text-center">
                     <p className="text-xl text-white/70 mb-4">No matching cards</p>

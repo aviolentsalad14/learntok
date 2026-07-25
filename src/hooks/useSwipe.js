@@ -17,9 +17,26 @@ export function useSwipe(cards) {
     const saved = localStorage.getItem('learntok_usercards')
     return saved ? JSON.parse(saved) : []
   })
+  const [shuffled, setShuffled] = useState(false)
 
   // Combined cards (built-in + user-contributed)
   const allCards = useMemo(() => [...cards, ...userCards], [cards, userCards])
+
+  // Shuffle the cards when toggled
+  const cardOrder = useMemo(() => {
+    if (!shuffled) return allCards
+    const arr = [...allCards]
+    for (let i = arr.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [arr[i], arr[j]] = [arr[j], arr[i]]
+    }
+    return arr
+  }, [allCards, shuffled])
+
+  // Reset index when cards change
+  useEffect(() => {
+    setCurrentIndex(0)
+  }, [cardOrder.length])
 
   const dragging = useRef(false)
   const startY = useRef(0)
@@ -28,17 +45,16 @@ export function useSwipe(cards) {
   const lastMoveTime = useRef(0)
   const lastMoveY = useRef(0)
 
-  // Persist
   useEffect(() => { localStorage.setItem('learntok_bookmarks', JSON.stringify([...bookmarks])) }, [bookmarks])
   useEffect(() => { localStorage.setItem('learntok_likes', JSON.stringify([...likes])) }, [likes])
   useEffect(() => { localStorage.setItem('learntok_usercards', JSON.stringify(userCards)) }, [userCards])
 
-  const current = allCards[currentIndex] || null
-  const progress = allCards.length > 0 ? ((currentIndex + 1) / allCards.length) * 100 : 0
+  const current = cardOrder[currentIndex] || null
+  const progress = cardOrder.length > 0 ? ((currentIndex + 1) / cardOrder.length) * 100 : 0
 
   const goTo = useCallback((index) => {
     if (animating) return
-    if (index < 0 || index >= allCards.length) return
+    if (index < 0 || index >= cardOrder.length) return
     const dir = index > currentIndex ? 'down' : 'up'
     setAnimating(true)
     setOffsetY(dir === 'down' ? -100 : 100)
@@ -47,15 +63,17 @@ export function useSwipe(cards) {
       setOffsetY(0)
       setAnimating(false)
     }, 200)
-  }, [animating, allCards.length, currentIndex])
+  }, [animating, cardOrder.length, currentIndex])
 
   const goNext = useCallback(() => goTo(currentIndex + 1), [goTo, currentIndex])
   const goPrev = useCallback(() => goTo(currentIndex - 1), [goTo, currentIndex])
 
   const goToId = useCallback((id) => {
-    const idx = allCards.findIndex(c => c.id === id)
+    const idx = cardOrder.findIndex(c => c.id === id)
     if (idx >= 0) goTo(idx)
-  }, [allCards, goTo])
+  }, [cardOrder, goTo])
+
+  const toggleShuffle = useCallback(() => setShuffled(s => !s), [])
 
   const toggleBookmark = useCallback((id) => {
     setBookmarks(prev => {
@@ -84,7 +102,6 @@ export function useSwipe(cards) {
     setUserCards(prev => [...prev, card])
   }, [])
 
-  // Touch drag
   const handleTouchStart = useCallback((e) => {
     dragging.current = true
     startY.current = e.touches[0].clientY
@@ -103,7 +120,6 @@ export function useSwipe(cards) {
     if (dt > 0) velocity.current = dy / dt * 0.3 + velocity.current * 0.7
     lastMoveTime.current = now
     lastMoveY.current = y
-
     const delta = y - startY.current
     const resisted = Math.sign(delta) * (Math.abs(delta) * 0.4)
     setOffsetY(currentOffset.current + resisted)
@@ -115,13 +131,11 @@ export function useSwipe(cards) {
     const absVelocity = Math.abs(velocity.current)
     const absOffset = Math.abs(offsetY)
     if (absOffset > 60 || absVelocity > 0.5) {
-      if (offsetY < 0 && currentIndex < allCards.length - 1) goNext()
+      if (offsetY < 0 && currentIndex < cardOrder.length - 1) goNext()
       else if (offsetY > 0 && currentIndex > 0) goPrev()
-      else setOffsetY(0)
-    } else {
-      setOffsetY(0)
-    }
-  }, [offsetY, currentIndex, allCards.length, goNext, goPrev])
+      else { setOffsetY(0) }
+    } else { setOffsetY(0) }
+  }, [offsetY, currentIndex, cardOrder.length, goNext, goPrev])
 
   const handleKeyDown = useCallback((e) => {
     if (e.key === 'ArrowDown' || e.key === 'ArrowRight') goNext()
@@ -131,14 +145,14 @@ export function useSwipe(cards) {
   return {
     current,
     currentIndex,
-    total: allCards.length,
+    total: cardOrder.length,
     offsetY,
     animating,
     progress,
     account,
     bookmarks,
     likes,
-    allCards,
+    cardOrder,
     goNext,
     goPrev,
     goTo,
@@ -151,5 +165,7 @@ export function useSwipe(cards) {
     handleTouchMove,
     handleTouchEnd,
     handleKeyDown,
+    shuffled,
+    toggleShuffle,
   }
 }
