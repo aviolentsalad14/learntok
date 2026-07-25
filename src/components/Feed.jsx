@@ -113,15 +113,21 @@ export default function Feed() {
               onSelect={setActiveCategory}
               onClear={() => setActiveCategory(null)}
             />
-            <div className="flex gap-1.5 overflow-x-auto px-4 pb-1 scrollbar-hide">
+            <div className="flex gap-1.5 overflow-x-auto px-4 py-1.5 scrollbar-hide border-b border-white/5">
               {activeTag && (
                 <button onClick={() => setActiveTag(null)}
-                  className="shrink-0 px-2.5 py-1 rounded-full bg-white/20 text-white text-[11px] font-medium">✕ {activeTag}</button>
+                  className="shrink-0 px-3 py-1.5 rounded-full bg-gradient-to-r from-red-500/30 to-pink-500/30 text-red-300 text-[11px] font-semibold border border-red-400/20 flex items-center gap-1"
+                >
+                  <span>✕</span>
+                  <span>{activeTag}</span>
+                </button>
               )}
               {allTagsList.filter(t => t !== activeTag).map(tag => (
                 <button key={tag} onClick={() => setActiveTag(tag)}
-                  className={`shrink-0 px-2.5 py-1 rounded-full text-[11px] font-medium transition-all ${
-                    activeTag === tag ? 'bg-white/20 text-white' : 'bg-white/10 text-white/50 hover:bg-white/15'
+                  className={`shrink-0 px-3 py-1.5 rounded-full text-[11px] font-medium transition-all duration-200 ${
+                    activeTag === tag
+                      ? 'bg-white/20 text-white shadow-sm'
+                      : 'bg-white/8 text-white/45 hover:bg-white/15 hover:text-white/70 border border-white/8'
                   }`}
                 >#{tag}</button>
               ))}
@@ -161,22 +167,29 @@ export default function Feed() {
         {tab === 'submit' && <SubmitCard onSubmit={handleSubmit} />}
       </div>
 
-      <nav className="flex items-center justify-around px-4 py-2 bg-gray-900/90 backdrop-blur-md border-t border-white/5 z-30">
+      <nav className="flex items-center justify-around px-2 pt-1.5 pb-[calc(0.375rem+env(safe-area-inset-bottom,0px))] bg-gray-900/95 backdrop-blur-xl border-t border-white/10 z-30 shadow-[0_-4px_20px_rgba(0,0,0,0.4)]">
         {[
-          { key: 'feed', label: 'Feed', icon: '🏠' },
-          { key: 'search', label: 'Search', icon: '🔍' },
-          { key: 'saved', label: 'Saved', icon: '🔖' },
-          { key: 'submit', label: 'Add', icon: '✏️' },
-        ].map(item => (
-          <button key={item.key} onClick={() => setTab(item.key)}
-            className={`flex flex-col items-center gap-0.5 px-4 py-1 transition-all ${
-              tab === item.key ? 'text-white' : 'text-white/30'
-            }`}
-          >
-            <span className="text-lg">{item.icon}</span>
-            <span className="text-[10px] font-medium">{item.label}</span>
-          </button>
-        ))}
+          { key: 'feed', label: 'Feed', icon: '🏠', activeIcon: '🏡' },
+          { key: 'search', label: 'Search', icon: '🔍', activeIcon: '🔍' },
+          { key: 'saved', label: 'Saved', icon: '📑', activeIcon: '🔖' },
+          { key: 'submit', label: 'Add', icon: '➕', activeIcon: '✏️' },
+        ].map(item => {
+          const isActive = tab === item.key
+          return (
+            <button key={item.key} onClick={() => setTab(item.key)}
+              className={`flex flex-col items-center gap-0.5 px-3 py-1 min-w-[60px] rounded-xl transition-all duration-200 ${
+                isActive
+                  ? 'text-white bg-white/8'
+                  : 'text-white/35 hover:text-white/60'
+              }`}
+            >
+              <span className="text-lg leading-none">{isActive ? item.activeIcon : item.icon}</span>
+              <span className={`text-[9px] font-semibold tracking-wide uppercase ${
+                isActive ? 'text-white/80' : 'text-white/30'
+              }`}>{item.label}</span>
+            </button>
+          )
+        })}
       </nav>
     </div>
   )
