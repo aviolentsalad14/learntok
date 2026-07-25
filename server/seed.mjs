@@ -10,7 +10,6 @@ const CARDS_JSON = path.join(__dirname, '..', 'src', 'data', 'cards.json')
 async function seed() {
   const SQL = await initSqlJs()
   
-  // Remove existing db
   if (fs.existsSync(DB_PATH)) fs.unlinkSync(DB_PATH)
 
   const db = new SQL.Database()
@@ -25,6 +24,7 @@ async function seed() {
       color TEXT NOT NULL,
       age TEXT NOT NULL DEFAULT '14+',
       tags TEXT NOT NULL DEFAULT '[]',
+      videoId TEXT DEFAULT NULL,
       created_at TEXT NOT NULL
     );
   `)
@@ -32,25 +32,23 @@ async function seed() {
   db.run(`CREATE INDEX idx_cards_title ON cards(title);`)
 
   const insert = db.prepare(`
-    INSERT INTO cards (id, category, title, summary, source, color, age, tags, created_at)
-    VALUES (?, ?, ?, ?, ?, ?, ?, ?, datetime('now'))
+    INSERT INTO cards (id, category, title, summary, source, color, age, tags, videoId, created_at)
+    VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, datetime('now'))
   `)
 
   const cardsData = JSON.parse(fs.readFileSync(CARDS_JSON, 'utf-8'))
 
   for (const card of cardsData) {
-    insert.run([card.id, card.category, card.title, card.summary, card.source, card.color, card.age, JSON.stringify(card.tags || [])])
+    insert.run([card.id, card.category, card.title, card.summary, card.source, card.color, card.age, JSON.stringify(card.tags || []), card.videoId || null])
   }
 
-  // Save to file
   const buffer = Buffer.from(db.export())
   fs.writeFileSync(DB_PATH, buffer)
 
   const count = db.exec("SELECT COUNT(*) as count FROM cards")[0].values[0][0]
-  console.log(`Seeded database with ${count} cards`)
-
+  const withVideo = db.exec("SELECT COUNT(*) as count FROM cards WHERE videoId IS NOT NULL")[0].values[0][0]
+  console.log(`Seeded: ${count} cards (${withVideo} with video)`)
   db.close()
-  console.log('Done!')
 }
 
 seed().catch(console.error)

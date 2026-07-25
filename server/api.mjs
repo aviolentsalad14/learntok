@@ -92,19 +92,18 @@ async function start() {
 
   // POST /api/cards — add a new card
   app.post('/api/cards', (req, res) => {
-    const { category, title, summary, source, color, age, tags } = req.body
+    const { category, title, summary, source, color, age, tags, videoId } = req.body
     if (!category || !title || !summary) {
       return res.status(400).json({ error: 'category, title, and summary are required' })
     }
 
-    // Get next ID
     const maxId = db.exec('SELECT COALESCE(MAX(id), 84) + 1 as next_id FROM cards')
     const nextId = maxId[0]?.values[0]?.[0] || 86
 
     db.run(
-      `INSERT INTO cards (id, category, title, summary, source, color, age, tags, created_at)
-       VALUES (?, ?, ?, ?, ?, ?, ?, ?, datetime('now'))`,
-      [nextId, category, title, summary, source || '', color || 'from-gray-600/80 to-slate-800/80', age || '14+', JSON.stringify(tags || [])]
+      `INSERT INTO cards (id, category, title, summary, source, color, age, tags, videoId, created_at)
+       VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, datetime('now'))`,
+      [nextId, category, title, summary, source || '', color || 'from-gray-600/80 to-slate-800/80', age || '14+', JSON.stringify(tags || []), videoId || null]
     )
 
     // Persist the db to disk
