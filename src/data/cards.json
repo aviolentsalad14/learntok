@@ -499,4 +499,214 @@
     "source": "Philosophical investigations by Bertrand Russell",
     "color": "from-gray-600/80 to-zinc-800/80"
   }
+,{
+    "id": 51, "category": "📚 Book Bite", "tags": ["mindfulness", "psychology"], "age": "14+",
+    "title": "Flow — The Optimal Experience",
+    "summary": "Flow is the state of complete absorption in an activity — losing yourself in the moment. It happens when challenge matches skill. Time dilates, self-consciousness vanishes, and the activity becomes intrinsically rewarding. Happiness is flow, not leisure.",
+    "source": "Flow by Mihaly Csikszentmihalyi", "color": "from-sky-500/80 to-blue-700/80"
+  },
+  {
+    "id": 52, "category": "🧠 Philosophy", "tags": ["existentialism", "freedom"], "age": "16+",
+    "title": "Sartre — We Are Condemned to Be Free",
+    "summary": "Existence precedes essence. You aren't born with a purpose — you create one through your choices. There's no human nature to fall back on. You are totally free, and totally responsible. 'Man is condemned to be free; because having created himself, he is entirely responsible for everything he does.'",
+    "source": "Being and Nothingness by Jean-Paul Sartre", "color": "from-orange-700/80 to-red-900/80"
+  },
+  {
+    "id": 53, "category": "🔬 Science Snack", "tags": ["physics", "relativity"], "age": "14+",
+    "title": "Special Relativity — Time is Relative",
+    "summary": "Einstein showed that time slows down the faster you move. At 99% of light speed, one year on a spaceship could equal decades on Earth. This isn't science fiction — GPS satellites have to correct for relativity every day or they'd be off by kilometers.",
+    "source": "Einstein: His Life and Universe by Walter Isaacson", "color": "from-indigo-600/80 to-blue-900/80"
+  },
+  {
+    "id": 54, "category": "🎤 Talk Snip", "tags": ["sustainability", "environment"], "age": "12+",
+    "title": "The Story of Stuff",
+    "summary": "Our economy is a linear system (take-make-dispose) on a finite planet. Every stage — extraction, production, distribution, consumption, disposal — has hidden costs. The average American consumes twice their body weight in materials daily. This isn't sustainable.",
+    "source": "Annie Leonard, The Story of Stuff", "color": "from-green-600/80 to-emerald-800/80"
+  },
+  {
+    "id": 55, "category": "📚 Book Bite", "tags": ["productivity", "focus"], "age": "14+",
+    "title": "Deep Work — The Superpower of the 21st Century",
+    "summary": "Deep work is professionally valuable, rare, and becoming rarer. Shallow work (email, slack, meetings) feels productive but isn't. Schedule deep work blocks. Quit social media. Embrace boredom. The ability to concentrate without distraction is becoming the new IQ.",
+    "source": "Deep Work by Cal Newport", "color": "from-fuchsia-600/80 to-purple-800/80"
+  },
+  {
+    "id": 56, "category": "🧠 Philosophy", "tags": ["ethics", "utilitarianism"], "age": "14+",
+    "title": "The Greatest Happiness Principle",
+    "summary": "Actions are right if they promote happiness, wrong if they produce the opposite. Utilitarianism asks you to consider the greatest good for the greatest number — including animals (they can suffer too). The catch: who decides what 'good' means?",
+    "source": "Utilitarianism by John Stuart Mill", "color": "from-teal-600/80 to-cyan-800/80"
+  },
+  {
+    "id": 57, "category": "🔬 Science Snack", "tags": ["astronomy", "space"], "age": "10+",
+    "title": "Neutron Stars — Cosmic Lighthouses",
+    "summary": "When a massive star collapses, its core compresses into a ball of neutrons the size of a city — but with the mass of the Sun. A teaspoon of neutron star weighs a billion tons. Some spin 700 times per second, emitting beams of radiation like cosmic lighthouses.",
+    "source": "Death by Black Hole by Neil deGrasse Tyson", "color": "from-rose-600/80 to-pink-800/80"
+  },
+  {
+    "id": 58, "category": "🎤 Talk Snip", "tags": ["psychology", "perception"], "age": "12+",
+    "title": "The Invisible Gorilla",
+    "summary": "Half the participants in a famous experiment failed to notice a person in a gorilla suit walk through a basketball game — because they were counting passes. When you focus intently on one thing, you miss the obvious. This is inattentional blindness, and it happens daily.",
+    "source": "Christopher Chabris & Daniel Simons, TED Talk", "color": "from-amber-600/80 to-yellow-800/80"
+  },
+  {
+    "id": 59, "category": "📚 Book Bite", "tags": ["economics", "behavioral"], "age": "14+",
+    "title": "Nudge — The Gentle Push",
+    "summary": "Small changes in how choices are presented can dramatically change behavior. Default options are powerful — opt-out organ donation vs opt-in. Cafeterias that put fruit at eye level sell more fruit. Libertarian paternalism: preserve freedom while steering good decisions.",
+    "source": "Nudge by Richard Thaler & Cass Sunstein", "color": "from-lime-600/80 to-green-800/80"
+  },
+  {
+    "id": 60, "category": "🧠 Philosophy", "tags": ["eastern-philosophy", "non-attachment"], "age": "14+",
+    "title": "Zen — The Beginner's Mind",
+    "summary": "In the beginner's mind there are many possibilities, in the expert's mind there are few. Shoshin — approaching every experience as if for the first time — opens the door to genuine understanding. Drop your preconceptions. The freshest view is often the truest.",
+    "source": "Zen Mind, Beginner's Mind by Shunryu Suzuki", "color": "from-stone-600/80 to-zinc-800/80"
+  },
+  {
+    "id": 61, "category": "🔬 Science Snack", "tags": ["biology", "cells"], "age": "10+",
+    "title": "Mitochondria — The Powerhouse",
+    "summary": "Every cell in your body contains hundreds of mitochondria — tiny organelles that convert food into ATP, the energy currency of life. They have their own DNA (inherited from your mother) and were once free-living bacteria. Without them, you'd be dead in seconds.",
+    "source": "The Vital Question by Nick Lane", "color": "from-red-600/80 to-rose-800/80"
+  },
+  {
+    "id": 62, "category": "🎤 Talk Snip", "tags": ["language", "communication"], "age": "12+",
+    "title": "How Language Shapes Thought",
+    "summary": "The language you speak affects how you think. Speakers of languages without future tense (like Finnish) save more for retirement — the future feels closer. Speakers of languages with absolute directions (north/south instead of left/right) have extraordinary navigational abilities.",
+    "source": "Lera Boroditsky, TED Talk", "color": "from-violet-600/80 to-fuchsia-800/80"
+  },
+  {
+    "id": 63, "category": "📚 Book Bite", "tags": ["storytelling", "creativity"], "age": "12+",
+    "title": "The Hero's Journey",
+    "summary": "Every great story follows the same pattern: a hero leaves their ordinary world, crosses a threshold into adventure, faces trials, wins a victory, and returns transformed. From Star Wars to Harry Potter to The Lord of the Rings — the monomyth is universal.",
+    "source": "The Hero with a Thousand Faces by Joseph Campbell", "color": "from-cyan-600/80 to-sky-800/80"
+  },
+  {
+    "id": 64, "category": "🧠 Philosophy", "tags": ["happiness", "ethics"], "age": "14+",
+    "title": "Epicureanism — The Art of Simple Pleasures",
+    "summary": "Epicurus didn't advocate for wild hedonism — he taught that the highest pleasure is a life of simple moderation, friendship, and freedom from fear. A meal of bread and water shared with friends can be as satisfying as a feast. Fear of death is the greatest obstacle to happiness.",
+    "source": "The Art of Happiness by Epicurus", "color": "from-amber-600/80 to-yellow-800/80"
+  },
+  {
+    "id": 65, "category": "🔬 Science Snack", "tags": ["neuroscience", "brain"], "age": "12+",
+    "title": "Neuroplasticity — Your Brain Rewires Itself",
+    "summary": "Your brain isn't fixed after childhood — it rewires itself throughout life. London taxi drivers have larger hippocampi (memory centers) from memorizing streets. Stroke patients can retrain other brain regions to take over. You can literally change your brain by changing what you do.",
+    "source": "The Brain That Changes Itself by Norman Doidge", "color": "from-pink-600/80 to-rose-800/80"
+  },
+  {
+    "id": 66, "category": "🎤 Talk Snip", "tags": ["physics", "wonder"], "age": "10+",
+    "title": "The Most Astounding Fact",
+    "summary": "The universe is about 13.8 billion years old. Our bodies are made of elements forged in stars that exploded billions of years ago. The nitrogen in our DNA, the calcium in our bones, the iron in our blood — all cooked in the heart of a star. We are literally stardust.",
+    "source": "Neil deGrasse Tyson, TIME Talk", "color": "from-blue-600/80 to-indigo-800/80"
+  },
+  {
+    "id": 67, "category": "📚 Book Bite", "tags": ["business", "strategy"], "age": "14+",
+    "title": "Good to Great — The Hedgehog Concept",
+    "summary": "Great companies focus on one thing they can be the best in the world at, that drives their economic engine, and that they're passionate about. This three-circle Venn diagram is the Hedgehog Concept. Foxes know many things; hedgehogs know one big thing.",
+    "source": "Good to Great by Jim Collins", "color": "from-yellow-700/80 to-amber-900/80"
+  },
+  {
+    "id": 68, "category": "🧠 Philosophy", "tags": ["critical-thinking", "logic"], "age": "14+",
+    "title": "The Ship of Theseus",
+    "summary": "If you replace every plank of a ship over time, is it still the same ship? What if you reassemble the old planks into a second ship — which one is the original? This ancient paradox questions identity itself. Are you still the same person you were 10 years ago?",
+    "source": "Plutarch, Parallel Lives", "color": "from-gray-600/80 to-slate-800/80"
+  },
+  {
+    "id": 69, "category": "🔬 Science Snack", "tags": ["evolution", "anthropology"], "age": "12+",
+    "title": "The Neanderthal in Your DNA",
+    "summary": "If you're of non-African descent, about 2% of your DNA comes from Neanderthals. Modern humans interbred with Neanderthals 50,000 years ago. Those ancient genes affect your immune system, skin, and even your risk for depression and blood clots. Your ancestors met and mingled.",
+    "source": "Who We Are and How We Got Here by David Reich", "color": "from-ochre-600/80 to-brown-800/80"
+  },
+  {
+    "id": 70, "category": "🎤 Talk Snip", "tags": ["technology", "future"], "age": "12+",
+    "title": "The Next Web — The Semantic Web",
+    "summary": "The internet is growing beyond documents. We're entering an era where machines can understand the meaning (semantics) of information — not just display it. Imagine an AI that can read every medical paper, cross-reference your symptoms, and tell your doctor what's wrong. That future is being built now.",
+    "source": "Tim Berners-Lee, TED Talk", "color": "from-emerald-600/80 to-green-800/80"
+  },
+  {
+    "id": 71, "category": "📚 Book Bite", "tags": ["psychology", "emotions"], "age": "14+",
+    "title": "Emotional Intelligence Matters More Than IQ",
+    "summary": "IQ gets you hired; EQ gets you promoted. Emotional intelligence — self-awareness, empathy, self-regulation, social skills — is a better predictor of success than raw intelligence. The most effective leaders aren't the smartest in the room; they're the most attuned to the room.",
+    "source": "Emotional Intelligence by Daniel Goleman", "color": "from-teal-500/80 to-emerald-700/80"
+  },
+  {
+    "id": 72, "category": "🧠 Philosophy", "tags": ["feminism", "existentialism"], "age": "16+",
+    "title": "The Second Sex — One is Not Born a Woman",
+    "summary": "One is not born, but rather becomes, a woman. Gender is a social construct layered onto biological sex. Throughout history, woman has been defined as the Other — secondary to man. Freedom requires refusing to be defined by anyone else's categories.",
+    "source": "The Second Sex by Simone de Beauvoir", "color": "from-fuchsia-700/80 to-purple-900/80"
+  },
+  {
+    "id": 73, "category": "🔬 Science Snack", "tags": ["chemistry", "materials"], "age": "12+",
+    "title": "Graphene — The Miracle Material",
+    "summary": "Graphene is a single layer of carbon atoms, one atom thick — yet 200 times stronger than steel. It conducts electricity better than copper and heat better than diamond. It's flexible, transparent, and almost impermeable. It could revolutionize batteries, electronics, and water filters.",
+    "source": "The Physics of Superheroes by James Kakalios", "color": "from-slate-600/80 to-gray-800/80"
+  },
+  {
+    "id": 74, "category": "🎤 Talk Snip", "tags": ["education", "science"], "age": "10+",
+    "title": "Science is a Way of Thinking",
+    "summary": "Science isn't a body of facts — it's a method of thinking. Question everything. Demand evidence. Be willing to be wrong. The scientific method is the most powerful tool humanity has ever created. But it only works if you follow the evidence wherever it leads, even when uncomfortable.",
+    "source": "Carl Sagan, The Demon-Haunted World", "color": "from-blue-500/80 to-cyan-700/80"
+  },
+  {
+    "id": 75, "category": "📚 Book Bite", "tags": ["productivity", "habits"], "age": "12+",
+    "title": "The Cue-Routine-Reward Loop",
+    "summary": "Every habit follows a neurological loop: cue (trigger), routine (action), reward (benefit). To change a habit, keep the same cue and reward — just change the routine. Want to stop stress-eating? Keep the cue (stress) and reward (satisfaction), but swap the routine (eat → walk).",
+    "source": "The Power of Habit by Charles Duhigg", "color": "from-orange-600/80 to-red-800/80"
+  },
+  {
+    "id": 76, "category": "🧠 Philosophy", "tags": ["political-philosophy", "society"], "age": "14+",
+    "title": "The Social Contract",
+    "summary": "Society is an agreement we all make: give up some freedom in exchange for security and order. Rousseau said people are born free but are everywhere in chains. Hobbes argued that without government, life would be 'solitary, poor, nasty, brutish, and short.' The contract is what makes civilization possible.",
+    "source": "The Social Contract by Jean-Jacques Rousseau", "color": "from-stone-700/80 to-amber-900/80"
+  },
+  {
+    "id": 77, "category": "🔬 Science Snack", "tags": ["geology", "climate"], "age": "12+",
+    "title": "The Greenhouse Effect",
+    "summary": "CO₂ and methane trap heat from the sun, keeping Earth 33°C warmer than it would be otherwise — that's a good thing. The problem is we've increased CO₂ by 50% since the Industrial Revolution. More greenhouse gas = more trapped heat = a planet that's warming dangerously fast.",
+    "source": "The Uninhabitable Earth by David Wallace-Wells", "color": "from-red-500/80 to-orange-700/80"
+  },
+  {
+    "id": 78, "category": "🎤 Talk Snip", "tags": ["psychology", "habits"], "age": "12+",
+    "title": "The 20-Second Rule",
+    "summary": "The biggest barrier to good habits isn't motivation — it's friction. Reduce the friction for good habits (keep running shoes by the door) and increase it for bad ones (put the TV remote in the basement). Shawn Achor calls this the 20-Second Rule: if a habit takes 20 more seconds of effort, you won't do it.",
+    "source": "The Happiness Advantage by Shawn Achor", "color": "from-sky-600/80 to-blue-800/80"
+  },
+  {
+    "id": 79, "category": "📚 Book Bite", "tags": ["philosophy", "decision-making"], "age": "14+",
+    "title": "Antifragile — What Doesn't Kill You Makes You Stronger",
+    "summary": "Some things benefit from shocks. Fragile things break under stress. Robust things resist stress. Antifragile things get stronger from stress — like the immune system, muscles, and startups. To thrive in chaos, build antifragility. Don't just survive uncertainty — profit from it.",
+    "source": "Antifragile by Nassim Nicholas Taleb", "color": "from-lime-700/80 to-green-900/80"
+  },
+  {
+    "id": 80, "category": "🧠 Philosophy", "tags": ["ethics", "technology"], "age": "14+",
+    "title": "The Ethics of Artificial Intelligence",
+    "summary": "If an autonomous car must choose between hitting five pedestrians or killing its passenger, who decides? As AI makes more decisions in our lives — loans, hiring, medicine, justice — we need ethical frameworks for machines. The trolley problem has become an engineering problem.",
+    "source": "Superintelligence by Nick Bostrom", "color": "from-purple-600/80 to-indigo-800/80"
+  },
+  {
+    "id": 81, "category": "🔬 Science Snack", "tags": ["physics", "standard-model"], "age": "14+",
+    "title": "The Higgs Boson — Why Things Have Mass",
+    "summary": "The Higgs field is an invisible energy field that permeates the universe. Particles gain mass by interacting with it — imagine moving through molasses. The Higgs boson, discovered in 2012, is the particle that proves the field exists. Without it, everything would be massless and flying at light speed.",
+    "source": "The God Particle by Leon Lederman", "color": "from-violet-700/80 to-purple-900/80"
+  },
+  {
+    "id": 82, "category": "🎤 Talk Snip", "tags": ["leadership", "management"], "age": "14+",
+    "title": "Drive — What Motivates Us",
+    "summary": "For creative work, carrot-and-stick doesn't work. What drives high performance: autonomy (control over your work), mastery (desire to get better), and purpose (a cause bigger than yourself). Companies that give employees 20% time (Google) or unlimited autonomy produce breakthrough innovation.",
+    "source": "Daniel Pink, RSA Animate", "color": "from-emerald-500/80 to-teal-700/80"
+  },
+  {
+    "id": 83, "category": "📚 Book Bite", "tags": ["finance", "investing"], "age": "14+",
+    "title": "The Power of Compound Interest",
+    "summary": "Einstein called compound interest the eighth wonder of the world. Invest $10,000 at 8% annual return: in 30 years it becomes $100,000 without adding a cent. Start early. Time is the most powerful factor. The stock market has returned ~7% after inflation for over a century. Patience beats timing.",
+    "source": "The Little Book of Common Sense Investing by John Bogle", "color": "from-green-600/80 to-teal-800/80"
+  },
+  {
+    "id": 84, "category": "🧠 Philosophy", "tags": ["logic", "critical-thinking"], "age": "14+",
+    "title": "The Socratic Method — Question Everything",
+    "summary": "Socrates didn't teach answers — he asked questions. By relentlessly questioning assumptions, he exposed contradictions in people's beliefs. The goal isn't to win an argument but to arrive at truth. Asking 'Why?' five times in a row is still one of the most powerful tools for clear thinking.",
+    "source": "The Republic by Plato (Socratic Dialogues)", "color": "from-amber-700/80 to-yellow-900/80"
+  },
+  {
+    "id": 85, "category": "🔬 Science Snack", "tags": ["biology", "microbiome"], "age": "12+",
+    "title": "Your Microbiome — The 2nd Brain",
+    "summary": "Your body contains trillions of bacteria that outnumber your human cells 1.3 to 1. They digest food, produce vitamins, regulate your immune system, and even influence your mood. The gut-brain axis is real — 90% of your serotonin is produced in your gut. You are a walking ecosystem.",
+    "source": "I Contain Multitudes by Ed Yong", "color": "from-teal-600/80 to-cyan-800/80"
+  }
 ]

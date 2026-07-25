@@ -1,13 +1,10 @@
-import { useState, useCallback, useRef, useEffect } from 'react'
+import { useState, useCallback, useRef, useEffect, useMemo } from 'react'
 
 export function useSwipe(cards) {
   const [currentIndex, setCurrentIndex] = useState(0)
   const [animating, setAnimating] = useState(false)
   const [offsetY, setOffsetY] = useState(0)
-  const [account, setAccount] = useState(() => {
-    const saved = localStorage.getItem('learntok_account')
-    return saved || null
-  })
+  const [account, setAccount] = useState(() => localStorage.getItem('learntok_account') || null)
   const [bookmarks, setBookmarks] = useState(() => {
     const saved = localStorage.getItem('learntok_bookmarks')
     return saved ? new Set(JSON.parse(saved)) : new Set()
@@ -16,6 +13,13 @@ export function useSwipe(cards) {
     const saved = localStorage.getItem('learntok_likes')
     return saved ? new Set(JSON.parse(saved)) : new Set()
   })
+  const [userCards, setUserCards] = useState(() => {
+    const saved = localStorage.getItem('learntok_usercards')
+    return saved ? JSON.parse(saved) : []
+  })
+
+  // Combined cards (built-in + user-contributed)
+  const allCards = useMemo(() => [...cards, ...userCards], [cards, userCards])
 
   const dragging = useRef(false)
   const startY = useRef(0)
@@ -23,35 +27,35 @@ export function useSwipe(cards) {
   const velocity = useRef(0)
   const lastMoveTime = useRef(0)
   const lastMoveY = useRef(0)
-  const rafId = useRef(null)
 
-  // Persist bookmarks + likes
-  useEffect(() => {
-    localStorage.setItem('learntok_bookmarks', JSON.stringify([...bookmarks]))
-  }, [bookmarks])
+  // Persist
+  useEffect(() => { localStorage.setItem('learntok_bookmarks', JSON.stringify([...bookmarks])) }, [bookmarks])
+  useEffect(() => { localStorage.setItem('learntok_likes', JSON.stringify([...likes])) }, [likes])
+  useEffect(() => { localStorage.setItem('learntok_usercards', JSON.stringify(userCards)) }, [userCards])
 
-  useEffect(() => {
-    localStorage.setItem('learntok_likes', JSON.stringify([...likes]))
-  }, [likes])
+  const current = allCards[currentIndex] || null
+  const progress = allCards.length > 0 ? ((currentIndex + 1) / allCards.length) * 100 : 0
 
-  const current = cards[currentIndex] || null
-  const progress = cards.length > 0 ? ((currentIndex + 1) / cards.length) * 100 : 0
-
-  const goTo = useCallback((index, direction) => {
+  const goTo = useCallback((index) => {
     if (animating) return
-    if (index < 0 || index >= cards.length) return
+    if (index < 0 || index >= allCards.length) return
+    const dir = index > currentIndex ? 'down' : 'up'
     setAnimating(true)
-    if (direction === 'down') setOffsetY(-100)
-    else setOffsetY(100)
+    setOffsetY(dir === 'down' ? -100 : 100)
     setTimeout(() => {
       setCurrentIndex(index)
       setOffsetY(0)
       setAnimating(false)
     }, 200)
-  }, [animating, cards.length])
+  }, [animating, allCards.length, currentIndex])
 
-  const goNext = useCallback(() => goTo(currentIndex + 1, 'down'), [goTo, currentIndex])
-  const goPrev = useCallback(() => goTo(currentIndex - 1, 'up'), [goTo, currentIndex])
+  const goNext = useCallback(() => goTo(currentIndex + 1), [goTo, currentIndex])
+  const goPrev = useCallback(() => goTo(currentIndex - 1), [goTo, currentIndex])
+
+  const goToId = useCallback((id) => {
+    const idx = allCards.findIndex(c => c.id === id)
+    if (idx >= 0) goTo(idx)
+  }, [allCards, goTo])
 
   const toggleBookmark = useCallback((id) => {
     setBookmarks(prev => {
@@ -76,7 +80,11 @@ export function useSwipe(cards) {
     localStorage.setItem('learntok_account', name)
   }, [])
 
-  // Touch drag handling
+  const addUserCard = useCallback((card) => {
+    setUserCards(prev => [...prev, card])
+  }, [])
+
+  // Touch drag
   const handleTouchStart = useCallback((e) => {
     dragging.current = true
     startY.current = e.touches[0].clientY
@@ -84,7 +92,6 @@ export function useSwipe(cards) {
     velocity.current = 0
     lastMoveTime.current = Date.now()
     lastMoveY.current = e.touches[0].clientY
-    cancelAnimationFrame(rafId.current)
   }, [offsetY])
 
   const handleTouchMove = useCallback((e) => {
@@ -93,41 +100,28 @@ export function useSwipe(cards) {
     const y = e.touches[0].clientY
     const dt = now - lastMoveTime.current
     const dy = y - lastMoveY.current
-
     if (dt > 0) velocity.current = dy / dt * 0.3 + velocity.current * 0.7
-
     lastMoveTime.current = now
     lastMoveY.current = y
 
     const delta = y - startY.current
-    // Add resistance — harder to drag the further you go
     const resisted = Math.sign(delta) * (Math.abs(delta) * 0.4)
     setOffsetY(currentOffset.current + resisted)
   }, [currentOffset])
 
-  const handleTouchEnd = useCallback((e) => {
+  const handleTouchEnd = useCallback(() => {
     if (!dragging.current) return
     dragging.current = false
-
     const absVelocity = Math.abs(velocity.current)
     const absOffset = Math.abs(offsetY)
-
-    // Swipe threshold: 60px drag OR fast flick
     if (absOffset > 60 || absVelocity > 0.5) {
-      if (offsetY < 0 && currentIndex < cards.length - 1) {
-        goTo(currentIndex + 1, 'down')
-      } else if (offsetY > 0 && currentIndex > 0) {
-        goTo(currentIndex - 1, 'up')
-      } else {
-        // Bounce back
-        setOffsetY(0)
-        setCurrentIndex(currentIndex)
-      }
+      if (offsetY < 0 && currentIndex < allCards.length - 1) goNext()
+      else if (offsetY > 0 && currentIndex > 0) goPrev()
+      else setOffsetY(0)
     } else {
-      // Snap back
       setOffsetY(0)
     }
-  }, [offsetY, currentIndex, cards.length, goTo])
+  }, [offsetY, currentIndex, allCards.length, goNext, goPrev])
 
   const handleKeyDown = useCallback((e) => {
     if (e.key === 'ArrowDown' || e.key === 'ArrowRight') goNext()
@@ -137,18 +131,22 @@ export function useSwipe(cards) {
   return {
     current,
     currentIndex,
-    total: cards.length,
+    total: allCards.length,
     offsetY,
     animating,
     progress,
     account,
     bookmarks,
     likes,
+    allCards,
     goNext,
     goPrev,
+    goTo,
+    goToId,
     toggleBookmark,
     toggleLike,
     setAccountName,
+    addUserCard,
     handleTouchStart,
     handleTouchMove,
     handleTouchEnd,
