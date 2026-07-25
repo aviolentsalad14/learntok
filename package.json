@@ -7,19 +7,30 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "oxlint",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "server": "node server/api.mjs",
+    "seed": "node server/seed.mjs",
+    "start": "concurrently \"npm run server\" \"npm run dev\""
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.3.3",
+    "better-sqlite3": "^13.0.1",
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
     "react": "^19.2.7",
     "react-dom": "^19.2.7",
+    "sql.js": "^1.14.1",
     "tailwindcss": "^4.3.3"
   },
   "devDependencies": {
     "@types/react": "^19.2.17",
     "@types/react-dom": "^19.2.3",
     "@vitejs/plugin-react": "^6.0.3",
+    "concurrently": "^10.0.4",
     "oxlint": "^1.71.0",
     "vite": "^8.1.1"
+  },
+  "allowScripts": {
+    "better-sqlite3@13.0.1": true
   }
 }
