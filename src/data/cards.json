@@ -2,6 +2,8 @@
   {
     "id": 1,
     "category": "📚 Book Bite",
+    "tags": ["productivity", "self-improvement"],
+    "age": "16+",
     "title": "The 80/20 Principle",
     "summary": "80% of results come from 20% of efforts. Identify the vital few inputs that produce the majority of your outcomes, and focus there. The rest is noise.",
     "source": "The 80/20 Principle by Richard Koch",
@@ -10,6 +12,8 @@
   {
     "id": 2,
     "category": "🧠 Philosophy",
+    "tags": ["stoicism", "mindset"],
+    "age": "14+",
     "title": "Stoicism — The Dichotomy of Control",
     "summary": "Some things are within your control, others are not. Your opinions, actions, and desires — yes. Your reputation, wealth, and what others think — no. Peace comes from focusing only on what you can control.",
     "source": "Epictetus, Enchiridion",
@@ -18,6 +22,8 @@
   {
     "id": 3,
     "category": "🔬 Science Snack",
+    "tags": ["physics", "thermodynamics"],
+    "age": "14+",
     "title": "Entropy — The Arrow of Time",
     "summary": "The Second Law of Thermodynamics says entropy (disorder) always increases. That's why eggs scramble but never unscramble, and why time only moves forward. The universe is slowly running down.",
     "source": "The Order of Time by Carlo Rovelli",
@@ -26,6 +32,8 @@
   {
     "id": 4,
     "category": "🎤 Talk Snip",
+    "tags": ["leadership", "communication"],
+    "age": "14+",
     "title": "Start With Why",
     "summary": "People don't buy what you do, they buy why you do it. Great leaders and organizations — Apple, MLK, the Wright brothers — all think, act, and communicate from the inside out: Why → How → What.",
     "source": "Simon Sinek, TEDxPugetSound",
@@ -34,6 +42,8 @@
   {
     "id": 5,
     "category": "📚 Book Bite",
+    "tags": ["lifestyle", "entrepreneurship"],
+    "age": "18+",
     "title": "The 4-Hour Workweek — Lifestyle Design",
     "summary": "Retirement is a worst-case-scenario insurance plan. Design your life now. Outsource, automate, and eliminate. Focus on 'what would you do if you had a million dollars?' — then find a way to do it today.",
     "source": "The 4-Hour Workweek by Tim Ferriss",
@@ -42,6 +52,8 @@
   {
     "id": 6,
     "category": "🧠 Philosophy",
+    "tags": ["existentialism", "meaning"],
+    "age": "16+",
     "title": "The Myth of Sisyphus",
     "summary": "Life is absurd — we seek meaning in a universe that offers none. Camus's answer: embrace the absurd. Imagine Sisyphus happy. The struggle itself toward the heights is enough to fill a man's heart.",
     "source": "The Myth of Sisyphus by Albert Camus",
@@ -50,6 +62,8 @@
   {
     "id": 7,
     "category": "🔬 Science Snack",
+    "tags": ["biology", "energy"],
+    "age": "10+",
     "title": "Photosynthesis — Electrons from Sunlight",
     "summary": "Plants split water using sunlight, grabbing electrons to turn CO₂ into sugar. It's the most efficient solar panel on Earth — and the foundation of almost all life. Without it, there's no oxygen, no food, no us.",
     "source": "What Is Life? by Nick Lane",
@@ -58,6 +72,8 @@
   {
     "id": 8,
     "category": "🎤 Talk Snip",
+    "tags": ["psychology", "relationships"],
+    "age": "14+",
     "title": "The Power of Vulnerability",
     "summary": "Vulnerability isn't weakness — it's the birthplace of connection, courage, and creativity. To be vulnerable is to show up and be seen, even when there are no guarantees. You cannot numb shame without numbing joy.",
     "source": "Brené Brown, TEDxHouston",
@@ -66,6 +82,8 @@
   {
     "id": 9,
     "category": "📚 Book Bite",
+    "tags": ["habits", "self-improvement"],
+    "age": "12+",
     "title": "Atomic Habits — 1% Better Every Day",
     "summary": "Habits are the compound interest of self-improvement. Tiny changes → remarkable results. Focus on systems, not goals. Make good habits obvious, attractive, easy, and satisfying. Your identity is your habits.",
     "source": "Atomic Habits by James Clear",
@@ -74,6 +92,8 @@
   {
     "id": 10,
     "category": "🧠 Philosophy",
+    "tags": ["ethics", "thought-experiment"],
+    "age": "14+",
     "title": "The Trolley Problem",
     "summary": "A runaway trolley is heading toward five people. You can pull a lever to divert it onto a side track, killing one person instead. Is it moral to act? This thought experiment exposes the tension between utilitarian ethics (save the most lives) and deontological ethics (don't intentionally harm).",
     "source": "Philippa Foot / Judith Jarvis Thomson",
@@ -82,6 +102,8 @@
   {
     "id": 11,
     "category": "🔬 Science Snack",
+    "tags": ["physics", "quantum"],
+    "age": "14+",
     "title": "Quantum Tunneling — Walking Through Walls",
     "summary": "At the quantum scale, particles can pass through barriers they seemingly shouldn't be able to cross. This isn't magic — it's probability. Your computer's transistors and the Sun's nuclear fusion both depend on quantum tunneling.",
     "source": "Quantum: A Guide for the Perplexed by Jim Al-Khalili",
@@ -90,9 +112,391 @@
   {
     "id": 12,
     "category": "🎤 Talk Snip",
+    "tags": ["psychology", "perseverance"],
+    "age": "12+",
     "title": "Grit — Passion and Perseverance",
     "summary": "Talent doesn't make you gritty. Grit is passion and perseverance for long-term goals. It's living life like a marathon, not a sprint. The gritty ones stick with their future, day in, day out — and that's what separates achievers from the rest.",
     "source": "Angela Duckworth, TED Talk",
     "color": "from-teal-500/80 to-emerald-700/80"
+  },
+  {
+    "id": 13,
+    "category": "📚 Book Bite",
+    "tags": ["finance", "mindset"],
+    "age": "16+",
+    "title": "Rich Dad Poor Dad — Assets vs Liabilities",
+    "summary": "The rich buy assets. The poor and middle class buy liabilities they think are assets. An asset puts money in your pocket. A liability takes money out. Build your asset column until it can cover your expenses. Then you're free.",
+    "source": "Rich Dad Poor Dad by Robert Kiyosaki",
+    "color": "from-yellow-600/80 to-amber-800/80"
+  },
+  {
+    "id": 14,
+    "category": "🧠 Philosophy",
+    "tags": ["political-philosophy", "justice"],
+    "age": "16+",
+    "title": "The Veil of Ignorance",
+    "summary": "Imagine designing a society without knowing your place in it — your gender, race, wealth, or talents. Behind this 'veil of ignorance,' you'd create a fair system because you could end up anywhere. That's justice as fairness.",
+    "source": "A Theory of Justice by John Rawls",
+    "color": "from-stone-600/80 to-neutral-800/80"
+  },
+  {
+    "id": 15,
+    "category": "🔬 Science Snack",
+    "tags": ["astronomy", "cosmology"],
+    "age": "10+",
+    "title": "The Observable Universe",
+    "summary": "The universe is 93 billion light-years across, but we can only see what's within the observable horizon — about 13.8 billion years old. The light from beyond hasn't had time to reach us. And the universe is expanding faster every day.",
+    "source": "Astrophysics for People in a Hurry by Neil deGrasse Tyson",
+    "color": "from-sky-600/80 to-indigo-800/80"
+  },
+  {
+    "id": 16,
+    "category": "🎤 Talk Snip",
+    "tags": ["design", "creativity"],
+    "age": "12+",
+    "title": "How Schools Kill Creativity",
+    "summary": "Creativity is as important as literacy, and schools systematically educate it out of children. We're taught to be afraid of being wrong. But if you're not prepared to be wrong, you'll never come up with anything original.",
+    "source": "Sir Ken Robinson, TED Talk",
+    "color": "from-lime-500/80 to-green-700/80"
+  },
+  {
+    "id": 17,
+    "category": "📚 Book Bite",
+    "tags": ["psychology", "decision-making"],
+    "age": "14+",
+    "title": "Thinking, Fast and Slow",
+    "summary": "You have two systems of thought: System 1 is fast, intuitive, emotional. System 2 is slow, deliberate, logical. System 1 runs your life most of the time. It's efficient but prone to biases. Knowing when to slow down is wisdom.",
+    "source": "Thinking, Fast and Slow by Daniel Kahneman",
+    "color": "from-orange-600/80 to-red-800/80"
+  },
+  {
+    "id": 18,
+    "category": "🧠 Philosophy",
+    "tags": ["ethics", "ancient-greece"],
+    "age": "14+",
+    "title": "Plato's Allegory of the Cave",
+    "summary": "Prisoners chained in a cave see only shadows on the wall and believe that's reality. One escapes, sees the sun (truth), and returns to free the others — who reject him. Education is painful enlightenment. Most people prefer the shadows.",
+    "source": "The Republic by Plato",
+    "color": "from-amber-700/80 to-yellow-900/80"
+  },
+  {
+    "id": 19,
+    "category": "🔬 Science Snack",
+    "tags": ["neuroscience", "memory"],
+    "age": "14+",
+    "title": "Your Brain Forgets on Purpose",
+    "summary": "Forgetting isn't a bug — it's a feature. Your brain prunes unused connections to make room for what matters. Sleep is when your brain consolidates memories and clears metabolic waste. That's why pulling all-nighters backfires.",
+    "source": "Why We Sleep by Matthew Walker",
+    "color": "from-pink-500/80 to-rose-700/80"
+  },
+  {
+    "id": 20,
+    "category": "🎤 Talk Snip",
+    "tags": ["happiness", "psychology"],
+    "age": "14+",
+    "title": "The Happy Secret to Better Work",
+    "summary": "Your brain works better when positive. Happiness isn't a destination you get to after success — it's the fuel for success itself. 'The Harvard Business Review' reports a 31% productivity increase in a positive brain. Dopamine = performance.",
+    "source": "Shawn Achor, TEDxBloomington",
+    "color": "from-sky-500/80 to-blue-700/80"
+  },
+  {
+    "id": 21,
+    "category": "📚 Book Bite",
+    "tags": ["minimalism", "lifestyle"],
+    "age": "14+",
+    "title": "Digital Minimalism",
+    "summary": "You don't need to quit social media entirely. You need to adopt a philosophy of technology use: spend your time and attention on a small number of carefully chosen activities that strongly serve your values, and miss out on everything else.",
+    "source": "Digital Minimalism by Cal Newport",
+    "color": "from-gray-600/80 to-zinc-800/80"
+  },
+  {
+    "id": 22,
+    "category": "🧠 Philosophy",
+    "tags": ["nihilism", "meaning"],
+    "age": "16+",
+    "title": "Nietzsche — God is Dead",
+    "summary": "Nietzsche didn't celebrate the death of God — he warned us. Without a divine moral framework, humanity must create its own values. Most people will crumble under this freedom. The Übermensch forges their own meaning from the abyss.",
+    "source": "Thus Spoke Zarathustra by Friedrich Nietzsche",
+    "color": "from-neutral-700/80 to-slate-900/80"
+  },
+  {
+    "id": 23,
+    "category": "🔬 Science Snack",
+    "tags": ["evolution", "genetics"],
+    "age": "10+",
+    "title": "Natural Selection — Survival of the Fittest",
+    "summary": "Not the biggest or the smartest survive — the most adaptable. Small genetic variations give some individuals a slight edge. Over millions of years, these tiny advantages compound into entirely new species. Evolution is a tinkerer, not an engineer.",
+    "source": "The Selfish Gene by Richard Dawkins",
+    "color": "from-teal-600/80 to-cyan-800/80"
+  },
+  {
+    "id": 24,
+    "category": "🎤 Talk Snip",
+    "tags": ["body-language", "confidence"],
+    "age": "12+",
+    "title": "Fake It Till You Become It",
+    "summary": "Your body language shapes who you are. Holding 'power poses' for two minutes increases testosterone and decreases cortisol. Your brain takes cues from your posture. Stand like a winner long enough, and you become one.",
+    "source": "Amy Cuddy, TED Talk",
+    "color": "from-violet-600/80 to-fuchsia-800/80"
+  },
+  {
+    "id": 25,
+    "category": "📚 Book Bite",
+    "tags": ["economics", "sociology"],
+    "age": "16+",
+    "title": "Freakonomics — Incentives Rule the World",
+    "summary": "People respond to incentives, even when they don't realize it. Sumo wrestlers cheat. Real estate agents sell your house for less. The Ku Klux Klan was dismantled by a comic book. Follow the incentives and you'll understand human behavior.",
+    "source": "Freakonomics by Steven Levitt & Stephen Dubner",
+    "color": "from-red-500/80 to-orange-700/80"
+  },
+  {
+    "id": 26,
+    "category": "🧠 Philosophy",
+    "tags": ["eastern-philosophy", "mindfulness"],
+    "age": "12+",
+    "title": "The Tao — Effortless Action",
+    "summary": "Wu Wei (non-action) doesn't mean doing nothing. It means acting in perfect alignment with the natural flow, like water. Water never fights — it flows around obstacles, wears down stone, and always finds the lowest place. Be like water.",
+    "source": "Tao Te Ching by Lao Tzu",
+    "color": "from-cyan-600/80 to-sky-800/80"
+  },
+  {
+    "id": 27,
+    "category": "🔬 Science Snack",
+    "tags": ["mathematics", "patterns"],
+    "age": "10+",
+    "title": "The Fibonacci Sequence in Nature",
+    "summary": "0, 1, 1, 2, 3, 5, 8, 13, 21… This simple number sequence appears everywhere in nature: sunflower seed spirals, pinecones, nautilus shells, and even galaxy arms. It's the universe's favorite pattern for efficient packing.",
+    "source": "The Golden Ratio by Mario Livio",
+    "color": "from-emerald-600/80 to-green-800/80"
+  },
+  {
+    "id": 28,
+    "category": "🎤 Talk Snip",
+    "tags": ["space", "exploration"],
+    "age": "10+",
+    "title": "The Pale Blue Dot",
+    "summary": "Every human who ever lived — all their wars, loves, triumphs, and failures — happened on a 'mote of dust suspended in a sunbeam.' From 4 billion miles away, Earth is a pale blue dot. This perspective is humbling. Look after each other.",
+    "source": "Carl Sagan, Pale Blue Dot",
+    "color": "from-blue-600/80 to-indigo-800/80"
+  },
+  {
+    "id": 29,
+    "category": "📚 Book Bite",
+    "tags": ["stoicism", "resilience"],
+    "age": "14+",
+    "title": "Meditations — Memento Mori",
+    "summary": "Marcus Aurelius wrote to himself: 'You could leave life right now. Let that determine what you do and say and think.' Remember you will die (memento mori). Not as a morbid thought — as a compass. It strips away the trivial.",
+    "source": "Meditations by Marcus Aurelius",
+    "color": "from-stone-700/80 to-amber-900/80"
+  },
+  {
+    "id": 30,
+    "category": "🧠 Philosophy",
+    "tags": ["consciousness", "mind"],
+    "age": "16+",
+    "title": "The Hard Problem of Consciousness",
+    "summary": "We know how the brain processes information (the easy problems). But why does it feel like something to be you? Why is there subjective experience at all? The 'hard problem' remains unsolved — and may be the deepest mystery in the universe.",
+    "source": "Consciousness Explained by Daniel Dennett",
+    "color": "from-fuchsia-700/80 to-purple-900/80"
+  },
+  {
+    "id": 31,
+    "category": "🔬 Science Snack",
+    "tags": ["chemistry", "origin-of-life"],
+    "age": "14+",
+    "title": "The Miller-Urey Experiment",
+    "summary": "In 1953, scientists simulated early Earth — lightning sparks through a mix of methane, ammonia, and water. Within days, amino acids formed spontaneously. The building blocks of life aren't rare. They're an inevitable chemical reaction.",
+    "source": "The Vital Question by Nick Lane",
+    "color": "from-lime-600/80 to-green-800/80"
+  },
+  {
+    "id": 32,
+    "category": "🎤 Talk Snip",
+    "tags": ["writing", "creativity"],
+    "age": "12+",
+    "title": "Inside the Writer's Mind",
+    "summary": "Writing isn't about having great ideas — it's about showing up every day. The gap between your taste and your ability is painful. Close it by producing work, failing, learning, and producing again. Don't wait for inspiration. Build the habit.",
+    "source": "Ira Glass, This American Life",
+    "color": "from-yellow-500/80 to-amber-700/80"
+  },
+  {
+    "id": 33,
+    "category": "📚 Book Bite",
+    "tags": ["negotiation", "psychology"],
+    "age": "14+",
+    "title": "Never Split the Difference",
+    "summary": "In negotiation, splitting the difference is a coward's move. Use calibrated questions ('How am I supposed to do that?') and mirroring (repeat the last few words). People want to be heard and understood — that's your leverage. Not logic.",
+    "source": "Never Split the Difference by Chris Voss",
+    "color": "from-blue-600/80 to-teal-800/80"
+  },
+  {
+    "id": 34,
+    "category": "🧠 Philosophy",
+    "tags": ["ethics", "practical-philosophy"],
+    "age": "14+",
+    "title": "The Golden Mean",
+    "summary": "Aristotle said virtue lies between two vices — excess and deficiency. Courage is between cowardice and recklessness. Generosity sits between miserliness and wastefulness. There's no formula. The golden mean is wisdom from lived experience.",
+    "source": "Nicomachean Ethics by Aristotle",
+    "color": "from-amber-600/80 to-yellow-800/80"
+  },
+  {
+    "id": 35,
+    "category": "🔬 Science Snack",
+    "tags": ["AI", "computer-science"],
+    "age": "12+",
+    "title": "Machine Learning — Learning from Data",
+    "summary": "Instead of programming rules, we give AI examples. A neural network adjusts millions of internal parameters until it can recognize patterns it has never seen. It's not magic — it's statistics on steroids, trained on massive datasets.",
+    "source": "The Alignment Problem by Brian Christian",
+    "color": "from-purple-600/80 to-indigo-800/80"
+  },
+  {
+    "id": 36,
+    "category": "🎤 Talk Snip",
+    "tags": ["bias", "psychology"],
+    "age": "14+",
+    "title": "The Danger of a Single Story",
+    "summary": "If you only hear one story about a person or a country, you risk a critical misunderstanding. A single story creates stereotypes. The problem with stereotypes is not that they're untrue — it's that they're incomplete. The single story robs people of dignity.",
+    "source": "Chimamanda Ngozi Adichie, TED Talk",
+    "color": "from-rose-600/80 to-pink-800/80"
+  },
+  {
+    "id": 37,
+    "category": "📚 Book Bite",
+    "tags": ["systems", "problem-solving"],
+    "age": "16+",
+    "title": "The Fifth Discipline — Systems Thinking",
+    "summary": "Most problems are interconnected systems, not isolated events. Fixing symptoms without understanding the system creates worse problems. The beer game, the arms race, even your diet — they all loop back on themselves. See the whole system.",
+    "source": "The Fifth Discipline by Peter Senge",
+    "color": "from-cyan-700/80 to-teal-900/80"
+  },
+  {
+    "id": 38,
+    "category": "🧠 Philosophy",
+    "tags": ["free-will", "determinism"],
+    "age": "16+",
+    "title": "Determinism vs Free Will",
+    "summary": "If every event has a cause, and your choices are caused by prior events you didn't choose, is free will an illusion? Compatibilists say freedom is acting according to your own desires — even if those desires are determined. Hard determinists say it's all an illusion.",
+    "source": "Free Will by Sam Harris",
+    "color": "from-slate-700/80 to-gray-900/80"
+  },
+  {
+    "id": 39,
+    "category": "🔬 Science Snack",
+    "tags": ["geology", "earth-science"],
+    "age": "10+",
+    "title": "Tectonic Plates — Earth's Moving Crust",
+    "summary": "Earth's outer shell is cracked into 15-20 plates floating on molten rock. They move about as fast as your fingernails grow — but over millions of years, they build mountains, create oceans, and cause earthquakes. The Himalayas are still rising 5mm/year.",
+    "source": "Earth: An Intimate History by Richard Fortey",
+    "color": "from-brown-600/80 to-stone-800/80"
+  },
+  {
+    "id": 40,
+    "category": "🎤 Talk Snip",
+    "tags": ["productivity", "focus"],
+    "age": "14+",
+    "title": "The Power of Boredom",
+    "summary": "Constant stimulation destroys your ability to focus. Boredom is the training ground for deep thinking. When you're bored, your brain enters the default mode network — where creative connections happen. Don't reach for your phone. Sit with it.",
+    "source": "Manoush Zomorodi, TED Radio Hour",
+    "color": "from-zinc-600/80 to-slate-800/80"
+  },
+  {
+    "id": 41,
+    "category": "📚 Book Bite",
+    "tags": ["marketing", "behavioral-science"],
+    "age": "14+",
+    "title": "Influence — The Weapons of Persuasion",
+    "summary": "Six principles drive human compliance: reciprocity (give first), scarcity (limited time), authority (expert status), consistency (commitments), liking (similarity), and social proof (everyone's doing it). Know them to defend against them.",
+    "source": "Influence by Robert Cialdini",
+    "color": "from-orange-700/80 to-red-900/80"
+  },
+  {
+    "id": 42,
+    "category": "🧠 Philosophy",
+    "tags": ["eastern-philosophy", "suffering"],
+    "age": "14+",
+    "title": "Buddhism — The Four Noble Truths",
+    "summary": "1) Life involves suffering. 2) Suffering comes from attachment and craving. 3) It's possible to end suffering. 4) The Eightfold Path leads there: right view, intention, speech, action, livelihood, effort, mindfulness, concentration.",
+    "source": "What the Buddha Taught by Walpola Rahula",
+    "color": "from-gold-600/80 to-amber-900/80"
+  },
+  {
+    "id": 43,
+    "category": "🔬 Science Snack",
+    "tags": ["medicine", "microbiology"],
+    "age": "12+",
+    "title": "Antibiotics vs Viruses — The Difference",
+    "summary": "Antibiotics kill bacteria, not viruses. Bacteria are living cells. Viruses are just genetic material in a protein coat — they can't reproduce without hijacking your cells. That's why antibiotics don't work on the common cold. Don't misuse them.",
+    "source": "I Contain Multitudes by Ed Yong",
+    "color": "from-green-700/80 to-emerald-900/80"
+  },
+  {
+    "id": 44,
+    "category": "🎤 Talk Snip",
+    "tags": ["growth-mindset", "education"],
+    "age": "10+",
+    "title": "The Power of Yet",
+    "summary": "A teacher who tells a struggling student 'You can't do it' vs 'You can't do it yet' changes everything. The word 'yet' creates a growth mindset — the belief that ability can be developed. Praise effort, not intelligence.",
+    "source": "Carol Dweck, TEDx Talk",
+    "color": "from-sky-600/80 to-blue-800/80"
+  },
+  {
+    "id": 45,
+    "category": "📚 Book Bite",
+    "tags": ["communication", "relationships"],
+    "age": "14+",
+    "title": "How to Win Friends — The Shortcut",
+    "summary": "The fastest way to influence someone: become genuinely interested in them. A person's name is the sweetest sound in any language. Talk about what they want and show them how to get it. Criticize indirectly. Let them save face.",
+    "source": "How to Win Friends and Influence People by Dale Carnegie",
+    "color": "from-teal-500/80 to-cyan-700/80"
+  },
+  {
+    "id": 46,
+    "category": "🧠 Philosophy",
+    "tags": ["transcendentalism", "nature"],
+    "age": "14+",
+    "title": "Walden — Simplify, Simplify",
+    "summary": "Thoreau went to the woods to live deliberately — to front only the essential facts of life. Most people live lives of quiet desperation burdened by possessions they don't need. Simplify. Reduce. The mass of men lead lives of quiet desperation.",
+    "source": "Walden by Henry David Thoreau",
+    "color": "from-forest-600/80 to-emerald-800/80"
+  },
+  {
+    "id": 47,
+    "category": "🔬 Science Snack",
+    "tags": ["anthropology", "human-origins"],
+    "age": "12+",
+    "title": "Lucy — The 3.2 Million Year Old Fossil",
+    "summary": "In 1974, a 40% complete female hominid skeleton was found in Ethiopia. Lucy walked upright but had a small brain. She proved that bipedalism came before big brains. Our ancestors stood up before they got smart. Walking changed everything.",
+    "source": "The Story of the Human Body by Daniel Lieberman",
+    "color": "from-ochre-600/80 to-brown-800/80"
+  },
+  {
+    "id": 48,
+    "category": "🎤 Talk Snip",
+    "tags": ["speaking", "communication"],
+    "age": "12+",
+    "title": "Speak Like a Leader",
+    "summary": "Great speakers don't use complex language. They use short words, short sentences, and pregnant pauses. Silence is powerful — it signals confidence. And the most persuasive sound in any language? Silence after an important point.",
+    "source": "Julian Treasure, TED Talk",
+    "color": "from-indigo-600/80 to-purple-800/80"
+  },
+  {
+    "id": 49,
+    "category": "📚 Book Bite",
+    "tags": ["business", "startups"],
+    "age": "14+",
+    "title": "Zero to One — Monopoly is Good",
+    "summary": "Capitalism and competition are opposites. Competition destroys profits. Every great business is a monopoly — it does something so well that no one else can compete. The best companies create entirely new categories (0 to 1), not copy existing ones (1 to n).",
+    "source": "Zero to One by Peter Thiel",
+    "color": "from-blue-700/80 to-indigo-900/80"
+  },
+  {
+    "id": 50,
+    "category": "🧠 Philosophy",
+    "tags": ["critical-thinking", "logic"],
+    "age": "14+",
+    "title": "Occam's Razor — The Simplest Explanation",
+    "summary": "When faced with competing explanations, the one with the fewest assumptions is usually correct. Not because simplicity is always right — but because explanations with fewer assumptions are less likely to be wrong. Don't multiply entities beyond necessity.",
+    "source": "Philosophical investigations by Bertrand Russell",
+    "color": "from-gray-600/80 to-zinc-800/80"
   }
 ]
