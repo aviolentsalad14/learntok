@@ -25,6 +25,7 @@ async function seed() {
       age TEXT NOT NULL DEFAULT '14+',
       tags TEXT NOT NULL DEFAULT '[]',
       videoId TEXT DEFAULT NULL,
+      bullets TEXT DEFAULT NULL,
       created_at TEXT NOT NULL
     );
   `)
@@ -32,14 +33,14 @@ async function seed() {
   db.run(`CREATE INDEX idx_cards_title ON cards(title);`)
 
   const insert = db.prepare(`
-    INSERT INTO cards (id, category, title, summary, source, color, age, tags, videoId, created_at)
-    VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, datetime('now'))
+    INSERT INTO cards (id, category, title, summary, source, color, age, tags, videoId, bullets, created_at)
+    VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, datetime('now'))
   `)
 
   const cardsData = JSON.parse(fs.readFileSync(CARDS_JSON, 'utf-8'))
 
   for (const card of cardsData) {
-    insert.run([card.id, card.category, card.title, card.summary, card.source, card.color, card.age, JSON.stringify(card.tags || []), card.videoId || null])
+    insert.run([card.id, card.category, card.title, card.summary, card.source, card.color, card.age, JSON.stringify(card.tags || []), card.videoId || null, JSON.stringify(card.bullets || null)])
   }
 
   const buffer = Buffer.from(db.export())
