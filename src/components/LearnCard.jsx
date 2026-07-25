@@ -109,6 +109,21 @@ export default function LearnCard({
             )}
           </div>
 
+          {/* Key takeaways - only for book cards */}
+          {card.bullets && card.bullets.length > 0 && (
+            <div className="mb-2">
+              <p className="text-white/50 text-[10px] uppercase tracking-wider mb-1">Key Takeaways</p>
+              <ul className="space-y-0.5">
+                {card.bullets.slice(0, 3).map((b, i) => (
+                  <li key={i} className="text-white/75 text-xs leading-relaxed flex gap-1.5">
+                    <span className="text-green-400 shrink-0 mt-0.5">&#x2022;</span>
+                    <span>{b}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )}
+
           {/* Source */}
           <p className="text-white/40 text-[11px] italic">
             — {card.source}

@@ -11,7 +11,12 @@
     "summary": "80% of results come from 20% of efforts. Identify the vital few inputs that produce the majority of your outcomes, and focus there. The rest is noise.",
     "source": "The 80/20 Principle by Richard Koch",
     "color": "from-emerald-500/80 to-teal-700/80",
-    "videoId": "GzhPBSNjHhA"
+    "videoId": "GzhPBSNjHhA",
+    "bullets": [
+      "20% of inputs produce 80% of outputs",
+      "Identify the vital few activities that drive real results",
+      "Focus on high-leverage work; cut or delegate the rest"
+    ]
   },
   {
     "id": 2,
@@ -53,7 +58,12 @@
     "summary": "People don't buy what you do, they buy why you do it. Great leaders and organizations — Apple, MLK, the Wright brothers — all think, act, and communicate from the inside out: Why → How → What.",
     "source": "Simon Sinek, TEDxPugetSound",
     "color": "from-orange-500/80 to-red-600/80",
-    "videoId": "u4ZoJKF_VuA"
+    "videoId": "u4ZoJKF_VuA",
+    "bullets": [
+      "People buy WHY you do it, not WHAT you do",
+      "Start with purpose, then process, then product",
+      "Great leaders communicate from the inside out"
+    ]
   },
   {
     "id": 5,
@@ -67,7 +77,12 @@
     "summary": "Retirement is a worst-case-scenario insurance plan. Design your life now. Outsource, automate, and eliminate. Focus on 'what would you do if you had a million dollars?' — then find a way to do it today.",
     "source": "The 4-Hour Workweek by Tim Ferriss",
     "color": "from-rose-500/80 to-pink-700/80",
-    "videoId": "oVxV6dBmzAs"
+    "videoId": "oVxV6dBmzAs",
+    "bullets": [
+      "Retirement is a worst-case insurance plan, not a goal",
+      "Outsource, automate, and eliminate low-value work",
+      "Design your ideal lifestyle NOW, not at 65"
+    ]
   },
   {
     "id": 6,
@@ -123,7 +138,12 @@
     "summary": "Habits are the compound interest of self-improvement. Tiny changes → remarkable results. Focus on systems, not goals. Make good habits obvious, attractive, easy, and satisfying. Your identity is your habits.",
     "source": "Atomic Habits by James Clear",
     "color": "from-indigo-500/80 to-blue-700/80",
-    "videoId": "PZ7lDrwYdZc"
+    "videoId": "PZ7lDrwYdZc",
+    "bullets": [
+      "1% improvement every day compounds to 37x better in a year",
+      "Focus on systems, not goals",
+      "Make good habits obvious, attractive, easy, and satisfying"
+    ]
   },
   {
     "id": 10,
@@ -179,7 +199,12 @@
     "summary": "The rich buy assets. The poor and middle class buy liabilities they think are assets. An asset puts money in your pocket. A liability takes money out. Build your asset column until it can cover your expenses. Then you're free.",
     "source": "Rich Dad Poor Dad by Robert Kiyosaki",
     "color": "from-yellow-600/80 to-amber-800/80",
-    "videoId": "SW_CImj4JNQ"
+    "videoId": "SW_CImj4JNQ",
+    "bullets": [
+      "The rich buy assets; the poor buy liabilities they think are assets",
+      "Build your asset column until it covers your expenses",
+      "Financial education is more valuable than money itself"
+    ]
   },
   {
     "id": 14,
@@ -235,7 +260,12 @@
     "summary": "You have two systems of thought: System 1 is fast, intuitive, emotional. System 2 is slow, deliberate, logical. System 1 runs your life most of the time. It's efficient but prone to biases. Knowing when to slow down is wisdom.",
     "source": "Thinking, Fast and Slow by Daniel Kahneman",
     "color": "from-orange-600/80 to-red-800/80",
-    "videoId": "UBVV8pch1dM"
+    "videoId": "UBVV8pch1dM",
+    "bullets": [
+      "System 1 is fast and intuitive; System 2 is slow and deliberate",
+      "System 1 runs most of your life and is prone to biases",
+      "Knowing when to slow down and engage System 2 is wisdom"
+    ]
   },
   {
     "id": 18,
@@ -291,7 +321,12 @@
     "summary": "You don't need to quit social media entirely. You need to adopt a philosophy of technology use: spend your time and attention on a small number of carefully chosen activities that strongly serve your values, and miss out on everything else.",
     "source": "Digital Minimalism by Cal Newport",
     "color": "from-gray-600/80 to-zinc-800/80",
-    "videoId": "1aU7_ogxUJY"
+    "videoId": "1aU7_ogxUJY",
+    "bullets": [
+      "Spend time on a small number of carefully chosen activities",
+      "Miss out on everything else intentionally",
+      "Technology should serve your values, not distract from them"
+    ]
   },
   {
     "id": 22,
@@ -347,7 +382,12 @@
     "summary": "People respond to incentives, even when they don't realize it. Sumo wrestlers cheat. Real estate agents sell your house for less. The Ku Klux Klan was dismantled by a comic book. Follow the incentives and you'll understand human behavior.",
     "source": "Freakonomics by Steven Levitt & Stephen Dubner",
     "color": "from-red-500/80 to-orange-700/80",
-    "videoId": "EkSJlaRwHyg"
+    "videoId": "EkSJlaRwHyg",
+    "bullets": [
+      "Incentives are the root of all human behavior",
+      "Conventional wisdom is often wrong — question assumptions",
+      "Data reveals hidden patterns that explain the world"
+    ]
   },
   {
     "id": 26,
@@ -403,7 +443,12 @@
     "summary": "Marcus Aurelius wrote to himself: 'You could leave life right now. Let that determine what you do and say and think.' Remember you will die (memento mori). Not as a morbid thought — as a compass. It strips away the trivial.",
     "source": "Meditations by Marcus Aurelius",
     "color": "from-stone-700/80 to-amber-900/80",
-    "videoId": "bLx1Fbdyaq0"
+    "videoId": "bLx1Fbdyaq0",
+    "bullets": [
+      "Remember you will die — let that guide your choices",
+      "Focus only on what you can control",
+      "Strip away the trivial and live with purpose"
+    ]
   },
   {
     "id": 30,
@@ -459,7 +504,12 @@
     "summary": "In negotiation, splitting the difference is a coward's move. Use calibrated questions ('How am I supposed to do that?') and mirroring (repeat the last few words). People want to be heard and understood — that's your leverage. Not logic.",
     "source": "Never Split the Difference by Chris Voss",
     "color": "from-blue-600/80 to-teal-800/80",
-    "videoId": "Qi3V0fMGOQc"
+    "videoId": "Qi3V0fMGOQc",
+    "bullets": [
+      "Splitting the difference is a coward's move in negotiation",
+      "Use calibrated questions: 'How am I supposed to do that?'",
+      "Mirroring builds rapport; listening is your strongest leverage"
+    ]
   },
   {
     "id": 34,
@@ -515,7 +565,12 @@
     "summary": "Most problems are interconnected systems, not isolated events. Fixing symptoms without understanding the system creates worse problems. The beer game, the arms race, even your diet — they all loop back on themselves. See the whole system.",
     "source": "The Fifth Discipline by Peter Senge",
     "color": "from-cyan-700/80 to-teal-900/80",
-    "videoId": "dFv5Usy3T2w"
+    "videoId": "dFv5Usy3T2w",
+    "bullets": [
+      "Most problems are interconnected systems, not isolated events",
+      "Fixing symptoms without understanding the system creates worse problems",
+      "See the whole system before acting"
+    ]
   },
   {
     "id": 38,
@@ -627,7 +682,12 @@
     "summary": "The fastest way to influence someone: become genuinely interested in them. A person's name is the sweetest sound in any language. Talk about what they want and show them how to get it. Criticize indirectly. Let them save face.",
     "source": "How to Win Friends and Influence People by Dale Carnegie",
     "color": "from-teal-500/80 to-cyan-700/80",
-    "videoId": "pS3Gq2L_sN4"
+    "videoId": "pS3Gq2L_sN4",
+    "bullets": [
+      "A person's name is the sweetest sound in any language",
+      "Become genuinely interested in others",
+      "Talk about what they want and show them how to get it"
+    ]
   },
   {
     "id": 46,
@@ -683,7 +743,12 @@
     "summary": "Capitalism and competition are opposites. Competition destroys profits. Every great business is a monopoly — it does something so well that no one else can compete. The best companies create entirely new categories (0 to 1), not copy existing ones (1 to n).",
     "source": "Zero to One by Peter Thiel",
     "color": "from-blue-700/80 to-indigo-900/80",
-    "videoId": "rT2bJSMj7UM"
+    "videoId": "rT2bJSMj7UM",
+    "bullets": [
+      "Competition is for losers — monopolies are good",
+      "The best companies create new categories (0 to 1)",
+      "Copying existing ideas (1 to n) creates less value"
+    ]
   },
   {
     "id": 50,
@@ -711,7 +776,12 @@
     "summary": "Flow is the state of complete absorption in an activity — losing yourself in the moment. It happens when challenge matches skill. Time dilates, self-consciousness vanishes, and the activity becomes intrinsically rewarding. Happiness is flow, not leisure.",
     "source": "Flow by Mihaly Csikszentmihalyi",
     "color": "from-sky-500/80 to-blue-700/80",
-    "videoId": "fXIeFJCqsPs"
+    "videoId": "fXIeFJCqsPs",
+    "bullets": [
+      "Flow is complete absorption in an activity",
+      "Happiness is flow, not passive leisure",
+      "Challenge must match skill for flow to occur"
+    ]
   },
   {
     "id": 52,
@@ -767,7 +837,12 @@
     "summary": "Deep work is professionally valuable, rare, and becoming rarer. Shallow work (email, slack, meetings) feels productive but isn't. Schedule deep work blocks. Quit social media. Embrace boredom. The ability to concentrate without distraction is becoming the new IQ.",
     "source": "Deep Work by Cal Newport",
     "color": "from-fuchsia-600/80 to-purple-800/80",
-    "videoId": "zXUjfVcEeDk"
+    "videoId": "zXUjfVcEeDk",
+    "bullets": [
+      "Deep work is rare and increasingly valuable",
+      "Schedule deep work blocks; eliminate shallow work",
+      "Embrace boredom — concentration is a muscle"
+    ]
   },
   {
     "id": 56,
@@ -823,7 +898,12 @@
     "summary": "Small changes in how choices are presented can dramatically change behavior. Default options are powerful — opt-out organ donation vs opt-in. Cafeterias that put fruit at eye level sell more fruit. Libertarian paternalism: preserve freedom while steering good decisions.",
     "source": "Nudge by Richard Thaler & Cass Sunstein",
     "color": "from-lime-600/80 to-green-800/80",
-    "videoId": "Bt7mZmLxbWI"
+    "videoId": "Bt7mZmLxbWI",
+    "bullets": [
+      "Small changes in choice architecture dramatically change behavior",
+      "Defaults are powerful — design them wisely",
+      "Libertarian paternalism: preserve freedom while nudging good decisions"
+    ]
   },
   {
     "id": 60,
@@ -879,7 +959,12 @@
     "summary": "Every great story follows the same pattern: a hero leaves their ordinary world, crosses a threshold into adventure, faces trials, wins a victory, and returns transformed. From Star Wars to Harry Potter to The Lord of the Rings — the monomyth is universal.",
     "source": "The Hero with a Thousand Faces by Joseph Campbell",
     "color": "from-cyan-600/80 to-sky-800/80",
-    "videoId": "P3TsKY7KvtM"
+    "videoId": "P3TsKY7KvtM",
+    "bullets": [
+      "Every story follows the hero's journey pattern",
+      "The monomyth is universal across cultures",
+      "Heroes leave home, face trials, and return transformed"
+    ]
   },
   {
     "id": 64,
@@ -935,7 +1020,12 @@
     "summary": "Great companies focus on one thing they can be the best in the world at, that drives their economic engine, and that they're passionate about. This three-circle Venn diagram is the Hedgehog Concept. Foxes know many things; hedgehogs know one big thing.",
     "source": "Good to Great by Jim Collins",
     "color": "from-yellow-700/80 to-amber-900/80",
-    "videoId": "aIw0wPjiIhc"
+    "videoId": "aIw0wPjiIhc",
+    "bullets": [
+      "Focus on one thing you can be the best in the world at",
+      "The Hedgehog Concept: passion + economics + excellence",
+      "Great companies know one big thing, not many things"
+    ]
   },
   {
     "id": 68,
@@ -991,7 +1081,12 @@
     "summary": "IQ gets you hired; EQ gets you promoted. Emotional intelligence — self-awareness, empathy, self-regulation, social skills — is a better predictor of success than raw intelligence. The most effective leaders aren't the smartest in the room; they're the most attuned to the room.",
     "source": "Emotional Intelligence by Daniel Goleman",
     "color": "from-teal-500/80 to-emerald-700/80",
-    "videoId": "7q2hEMkq_Is"
+    "videoId": "7q2hEMkq_Is",
+    "bullets": [
+      "EQ matters more than IQ for success",
+      "Self-awareness is the foundation of emotional intelligence",
+      "The best leaders are the most attuned to the room"
+    ]
   },
   {
     "id": 72,
@@ -1047,7 +1142,12 @@
     "summary": "Every habit follows a neurological loop: cue (trigger), routine (action), reward (benefit). To change a habit, keep the same cue and reward — just change the routine. Want to stop stress-eating? Keep the cue (stress) and reward (satisfaction), but swap the routine (eat → walk).",
     "source": "The Power of Habit by Charles Duhigg",
     "color": "from-orange-600/80 to-red-800/80",
-    "videoId": "W1eYrhGe_Ac"
+    "videoId": "W1eYrhGe_Ac",
+    "bullets": [
+      "Every habit follows a cue-routine-reward loop",
+      "Change habits by keeping the cue/reward but changing the routine",
+      "Identify the cue and reward to hack any habit"
+    ]
   },
   {
     "id": 76,
@@ -1103,7 +1203,12 @@
     "summary": "Some things benefit from shocks. Fragile things break under stress. Robust things resist stress. Antifragile things get stronger from stress — like the immune system, muscles, and startups. To thrive in chaos, build antifragility. Don't just survive uncertainty — profit from it.",
     "source": "Antifragile by Nassim Nicholas Taleb",
     "color": "from-lime-700/80 to-green-900/80",
-    "videoId": "g_gbQISy2Nk"
+    "videoId": "g_gbQISy2Nk",
+    "bullets": [
+      "Some things get stronger from stress (antifragile)",
+      "Don't just survive uncertainty — profit from it",
+      "Antifragility is the opposite of fragility, not just robustness"
+    ]
   },
   {
     "id": 80,
@@ -1159,7 +1264,12 @@
     "summary": "Einstein called compound interest the eighth wonder of the world. Invest $10,000 at 8% annual return: in 30 years it becomes $100,000 without adding a cent. Start early. Time is the most powerful factor. The stock market has returned ~7% after inflation for over a century. Patience beats timing.",
     "source": "The Little Book of Common Sense Investing by John Bogle",
     "color": "from-green-600/80 to-teal-800/80",
-    "videoId": "mPZkdNFk1U4"
+    "videoId": "mPZkdNFk1U4",
+    "bullets": [
+      "Compound interest is the eighth wonder of the world",
+      "Start investing early — time is the most powerful factor",
+      "The stock market returns ~7% after inflation over the long term"
+    ]
   },
   {
     "id": 84,
@@ -1201,7 +1311,12 @@
     "summary": "The gold standard for personal productivity. Capture everything in a trusted system outside your head. Clarify what each item means and decide the next action. Organize by context (calls, errands, at computer). Review weekly. Do it.",
     "source": "Getting Things Done by David Allen",
     "color": "from-blue-600/80 to-indigo-800/80",
-    "videoId": "LQ5Pnm5-v0Q"
+    "videoId": "LQ5Pnm5-v0Q",
+    "bullets": [
+      "Capture everything in a trusted system outside your head",
+      "Clarify next actions for every item",
+      "Review your system weekly to stay on top of everything"
+    ]
   },
   {
     "id": 87,
@@ -1215,7 +1330,12 @@
     "summary": "Three untruths have spread: what doesn't kill you makes you weaker (vs stronger), always trust your feelings (vs question them), and life is a battle between good and bad people (vs good and evil in everyone). These lead to fragility, not resilience.",
     "source": "The Coddling of the American Mind by Lukianoff & Haidt",
     "color": "from-red-500/80 to-orange-700/80",
-    "videoId": "Yjg3qE3V39I"
+    "videoId": "Yjg3qE3V39I",
+    "bullets": [
+      "What doesn't kill you doesn't always make you stronger",
+      "Don't always trust your feelings",
+      "Life isn't a battle between good and bad people"
+    ]
   },
   {
     "id": 88,
@@ -1229,7 +1349,12 @@
     "summary": "Your brain is terrible at predicting what will make you happy. You think winning the lottery will make you happier forever - it won't. You think paralysis will make you miserable forever - it won't. The psychological immune system is powerful. You adapt to almost everything.",
     "source": "Stumbling on Happiness by Daniel Gilbert",
     "color": "from-yellow-500/80 to-amber-700/80",
-    "videoId": "LTO_dZUuyJA"
+    "videoId": "LTO_dZUuyJA",
+    "bullets": [
+      "Your brain is terrible at predicting what will make you happy",
+      "You adapt to almost everything — good and bad",
+      "The psychological immune system is powerful"
+    ]
   },
   {
     "id": 89,
@@ -1243,7 +1368,12 @@
     "summary": "Humans are not rational. We make the same mistakes over and over - predictably. Free is too powerful (people grab free stuff over better deals). We overvalue what we own (endowment effect). We compare everything relatively. Understand these patterns to outsmart yourself.",
     "source": "Predictably Irrational by Dan Ariely",
     "color": "from-purple-500/80 to-fuchsia-700/80",
-    "videoId": "rLk5Bq4h_6CM"
+    "videoId": "rLk5Bq4h_6CM",
+    "bullets": [
+      "Humans make predictably irrational decisions",
+      "Free is dangerously powerful — people overvalue free things",
+      "We overvalue what we own (endowment effect)"
+    ]
   },
   {
     "id": 90,
@@ -1257,7 +1387,12 @@
     "summary": "Meetings are toxic. Workaholism is a waste. Planning is guessing. Build half a product, not a half-assed product. Stay small. Ignore competition. Say no by default. You don't need a business plan, an office, or investors - you need to make something people want.",
     "source": "Rework by Jason Fried & DHH",
     "color": "from-teal-500/80 to-cyan-700/80",
-    "videoId": "0CDXJDSJ0Nw"
+    "videoId": "0CDXJDSJ0Nw",
+    "bullets": [
+      "Meetings are toxic and planning is guessing",
+      "Build half a product, not a half-assed product",
+      "You don't need investors — make something people want"
+    ]
   },
   {
     "id": 91,
@@ -1271,7 +1406,12 @@
     "summary": "Sleep is the single most effective thing you can do to reset your brain and body. It boosts memory, regulates emotions, clears toxins, and strengthens your immune system. Routinely sleeping less than 6 hours increases cancer risk, Alzheimer's risk, and heart disease. Do not skimp on sleep.",
     "source": "Why We Sleep by Matthew Walker",
     "color": "from-indigo-600/80 to-blue-800/80",
-    "videoId": "12cweGjpIHg"
+    "videoId": "12cweGjpIHg",
+    "bullets": [
+      "Sleep is the most effective thing you can do for your brain",
+      "Sleep below 6 hours increases cancer, Alzheimer's, and heart disease risk",
+      "Sleep clears toxins, regulates emotions, and boosts memory"
+    ]
   },
   {
     "id": 92,
@@ -1285,7 +1425,12 @@
     "summary": "Cancer is not one disease - it's hundreds, each with different genetic drivers. We've spent decades waging war on it with poison (chemo), knives (surgery), and radiation. Only recently have targeted therapies and immunotherapy started to change the game. It's a story of hubris, hope, and incremental progress.",
     "source": "The Emperor of All Maladies by Siddhartha Mukherjee",
     "color": "from-rose-600/80 to-pink-800/80",
-    "videoId": "U2HhXIs7yi8"
+    "videoId": "U2HhXIs7yi8",
+    "bullets": [
+      "Cancer is not one disease but hundreds with different genetic drivers",
+      "Progress has been slow but targeted therapies are game-changing",
+      "The war on cancer is a story of hubris, hope, and incremental progress"
+    ]
   },
   {
     "id": 93,
@@ -1299,7 +1444,12 @@
     "summary": "String theory proposes that the fundamental building blocks of the universe are not particles but tiny vibrating strings. Different vibration patterns produce different particles - like musical notes. The theory requires 10 or 11 dimensions, most curled up so small we can't detect them. Elegant but unproven.",
     "source": "The Elegant Universe by Brian Greene",
     "color": "from-cyan-600/80 to-teal-800/80",
-    "videoId": "0Ka1L7DKr0E"
+    "videoId": "0Ka1L7DKr0E",
+    "bullets": [
+      "Fundamental particles are tiny vibrating strings",
+      "Different vibration patterns = different particles",
+      "The theory requires 10-11 dimensions, most curled up and invisible"
+    ]
   },
   {
     "id": 94,
@@ -1313,7 +1463,12 @@
     "summary": "The cosmos is all that is or ever was or ever will be. We are a way for the cosmos to know itself. Every atom in your body was forged in a star. The universe is vast - 100 billion galaxies, each with 100 billion stars. In the face of this scale, our problems seem small and our connection to each other profound.",
     "source": "Cosmos by Carl Sagan",
     "color": "from-sky-600/80 to-blue-800/80",
-    "videoId": "j9o-BbQ-dvc"
+    "videoId": "j9o-BbQ-dvc",
+    "bullets": [
+      "We are a way for the cosmos to know itself",
+      "Every atom in your body was forged in a star",
+      "Scale gives perspective — our problems are small"
+    ]
   },
   {
     "id": 95,
@@ -1327,7 +1482,12 @@
     "summary": "Science doesn't progress by accumulating facts - it progresses by revolutions. Normal science works within a paradigm until anomalies pile up. Then a crisis leads to a paradigm shift - a complete change in worldview (Copernicus, Darwin, Einstein). New paradigms are incommensurable with old ones.",
     "source": "The Structure of Scientific Revolutions by Thomas Kuhn",
     "color": "from-stone-600/80 to-slate-800/80",
-    "videoId": "L7Qy4FQ_Asc"
+    "videoId": "L7Qy4FQ_Asc",
+    "bullets": [
+      "Science progresses through revolutions, not steady accumulation",
+      "Paradigm shifts change how we see everything",
+      "New paradigms are often incompatible with old ones"
+    ]
   },
   {
     "id": 96,
@@ -1341,7 +1501,12 @@
     "summary": "No one succeeds alone. The 10,000-hour rule: true expertise requires roughly 10,000 hours of deliberate practice. But opportunity matters more - being born in the right year, having access to computers, growing up in a culture that values hard work. Bill Gates got 10,000 hours because his school had a terminal in 1968.",
     "source": "Outliers by Malcolm Gladwell",
     "color": "from-amber-600/80 to-yellow-800/80",
-    "videoId": "e9OBJt8x2ao"
+    "videoId": "e9OBJt8x2ao",
+    "bullets": [
+      "True expertise requires ~10,000 hours of deliberate practice",
+      "Opportunity and timing matter as much as effort",
+      "No one succeeds alone — culture and context are everything"
+    ]
   },
   {
     "id": 97,
@@ -1355,7 +1520,12 @@
     "summary": "A Black Swan is a rare, high-impact event that seems predictable only in hindsight. 9/11, the 2008 financial crash, the rise of the internet - all were Black Swans. Most of history's biggest changes come from these unpredictable events. Stop pretending you can predict the future. Build robustness to the unknown.",
     "source": "The Black Swan by Nassim Nicholas Taleb",
     "color": "from-gray-700/80 to-zinc-900/80",
-    "videoId": "ay5D3k6nCEY"
+    "videoId": "ay5D3k6nCEY",
+    "bullets": [
+      "Black Swans are rare, high-impact, and predictable only in hindsight",
+      "Most big changes come from unpredictable events",
+      "Build robustness to the unknown rather than trying to predict it"
+    ]
   },
   {
     "id": 98,
@@ -1369,7 +1539,12 @@
     "summary": "Great companies fail not because they do things wrong - but because they do everything right. They listen to customers, invest in R&D, and optimize profits. Then a disruptive technology emerges that their customers don't want - yet. By the time it matters, the disruptor has taken over. The innovator's dilemma: doing the right thing leads to failure.",
     "source": "The Innovator's Dilemma by Clayton Christensen",
     "color": "from-orange-600/80 to-red-800/80",
-    "videoId": "7dzbZ3C_CA0"
+    "videoId": "7dzbZ3C_CA0",
+    "bullets": [
+      "Doing everything right can still make you fail",
+      "Disruptive technologies start small and irrelevant",
+      "Listen to non-customers, not just existing ones"
+    ]
   },
   {
     "id": 99,
@@ -1383,7 +1558,12 @@
     "summary": "Why did Europeans conquer the Americas and not the reverse? Not because of intelligence or genes - but geography. The East-West axis of Eurasia allowed crops and livestock to spread easily. Domesticated animals gave immunity to diseases that killed 95% of Native Americans. Geography is destiny.",
     "source": "Guns, Germs, and Steel by Jared Diamond",
     "color": "from-green-700/80 to-emerald-900/80",
-    "videoId": "sCJm2ncmQBE"
+    "videoId": "sCJm2ncmQBE",
+    "bullets": [
+      "Geography, not genes, determines why some societies dominate",
+      "East-West axis allowed crops and livestock to spread",
+      "Domesticated animals gave immunity that conquered the Americas"
+    ]
   },
   {
     "id": 100,
@@ -1397,7 +1577,12 @@
     "summary": "Homo sapiens conquered the world through three revolutions: Cognitive (language and fiction ~70k years ago), Agricultural (~12k years ago), and Scientific (~500 years ago). We're the only animal that cooperates flexibly in large numbers - because we believe in shared fictions like money, nations, and human rights.",
     "source": "Sapiens by Yuval Noah Harari",
     "color": "from-amber-700/80 to-yellow-900/80",
-    "videoId": "BfrImDSFFes"
+    "videoId": "BfrImDSFFes",
+    "bullets": [
+      "Three revolutions shaped humanity: cognitive, agricultural, scientific",
+      "Shared fictions (money, nations, rights) enable large-scale cooperation",
+      "We're the only animal that cooperates flexibly in large numbers"
+    ]
   },
   {
     "id": 101,
@@ -1411,7 +1596,12 @@
     "summary": "What's the ONE thing you can do such that by doing it everything else will be easier or unnecessary? Extraordinary results come from narrowing your focus, not widening it. Multitasking is a lie. Willpower is a limited resource - do your most important work first. Protect your focus time like a meeting with the CEO.",
     "source": "The One Thing by Gary Keller",
     "color": "from-blue-500/80 to-teal-700/80",
-    "videoId": "0-2UaPnfTVA"
+    "videoId": "0-2UaPnfTVA",
+    "bullets": [
+      "What's the ONE thing you can do that makes everything else easier?",
+      "Narrow your focus — extraordinary results come from narrowing",
+      "Protect your focus time like a meeting with the CEO"
+    ]
   },
   {
     "id": 102,
@@ -1425,7 +1615,12 @@
     "summary": "You are systematically delusional. You overestimate your own abilities (overconfidence bias). You see patterns in random noise (clustering illusion). You think things that just happened will happen again (recency bias). You believe what confirms what you already believe (confirmation bias). The first step: admit you're biased.",
     "source": "The Art of Thinking Clearly by Rolf Dobelli",
     "color": "from-fuchsia-600/80 to-purple-800/80",
-    "videoId": "kWGzFhLx0UY"
+    "videoId": "kWGzFhLx0UY",
+    "bullets": [
+      "Overconfidence bias, confirmation bias, and recency bias fool you daily",
+      "You see patterns in random noise",
+      "Admitting you're biased is the first step"
+    ]
   },
   {
     "id": 103,
@@ -1439,7 +1634,12 @@
     "summary": "The gene is the unit of heredity - a stretch of DNA that codes for a protein. The Human Genome Project mapped all 20,000 of ours. We can now read, edit, and even synthesize genes. CRISPR lets us cure genetic diseases. But with this power comes hard questions: should we edit embryos? Choose our children's traits? Play God?",
     "source": "The Gene by Siddhartha Mukherjee",
     "color": "from-violet-600/80 to-indigo-800/80",
-    "videoId": "a_gC1vQy1t4"
+    "videoId": "a_gC1vQy1t4",
+    "bullets": [
+      "The gene is the unit of heredity — a stretch of DNA coding for proteins",
+      "CRISPR allows us to edit genes and cure diseases",
+      "With this power comes ethical questions about designer babies"
+    ]
   },
   {
     "id": 104,
@@ -1453,7 +1653,12 @@
     "summary": "We are survival machines - vehicles for our genes. A gene's ultimate goal is to replicate itself, even at the expense of the organism. Altruism exists because helping relatives helps copies of your genes survive. Memes - ideas that spread like genes - are the next level of evolution. Dawkins changed how we think about evolution itself.",
     "source": "The Selfish Gene by Richard Dawkins",
     "color": "from-green-600/80 to-teal-800/80",
-    "videoId": "b8RgQRNakSc"
+    "videoId": "b8RgQRNakSc",
+    "bullets": [
+      "We are survival machines for our genes",
+      "Altruism helps relatives because they share your genes",
+      "Memes are ideas that spread and evolve like genes"
+    ]
   },
   {
     "id": 105,
@@ -1467,7 +1672,12 @@
     "summary": "Your attachment style - anxious, avoidant, or secure - determines how you behave in relationships. Anxious types crave closeness and fear abandonment. Avoidant types value independence and fear intimacy. They attract each other (anxious-avoidant trap). Understanding your style is the key to better relationships.",
     "source": "Attached by Amir Levine & Rachel Heller",
     "color": "from-pink-600/80 to-rose-800/80",
-    "videoId": "7Sqt4qLqiOI"
+    "videoId": "7Sqt4qLqiOI",
+    "bullets": [
+      "Your attachment style determines relationship patterns",
+      "Anxious and avoidant types attract each other (the trap)",
+      "Understanding your style is the key to better relationships"
+    ]
   },
   {
     "id": 106,
@@ -1481,7 +1691,12 @@
     "summary": "Essentialism is not about how to get more things done - it's about how to get the right things done. Less but better. If it's not a clear yes, it's a no. Trade-offs are real - you can't have it all. The essentialist does the right thing at the right time in the right way. Say no to almost everything.",
     "source": "Essentialism by Greg McKeown",
     "color": "from-indigo-500/80 to-purple-700/80",
-    "videoId": "X4G8LBfC6GA"
+    "videoId": "X4G8LBfC6GA",
+    "bullets": [
+      "Less but better — do the right things, not all things",
+      "If it's not a clear yes, it's a no",
+      "Say no to almost everything"
+    ]
   },
   {
     "id": 107,
@@ -1495,7 +1710,12 @@
     "summary": "To build a habit, make it so small it's ridiculous. Floss one tooth. Do one pushup. Write one sentence. The smallness removes resistance. After the tiny behavior, celebrate - emotion creates habits, not repetition. Anchor new habits to existing ones. Small changes, wired by emotion, create lasting transformation.",
     "source": "Tiny Habits by BJ Fogg",
     "color": "from-cyan-500/80 to-sky-700/80",
-    "videoId": "S_8RBBAJqGk"
+    "videoId": "S_8RBBAJqGk",
+    "bullets": [
+      "Make habits so small they're ridiculous",
+      "Celebrate after each tiny habit — emotion wires habits, not repetition",
+      "Anchor new habits to existing ones"
+    ]
   },
   {
     "id": 108,
@@ -1509,7 +1729,12 @@
     "summary": "The old model: create a product, advertise it, sell it. That's dead. In a world of too many choices, remarkable products are the only marketing that works. Be a purple cow - something worth noticing, talking about, sharing. Safe is risky. Boring fails. Remarkable wins. If it's not remarkable, start over.",
     "source": "Purple Cow by Seth Godin",
     "color": "from-violet-600/80 to-fuchsia-800/80",
-    "videoId": "mhkKJSBBmT0"
+    "videoId": "mhkKJSBBmT0",
+    "bullets": [
+      "Remarkable products are the only marketing that works",
+      "Safe is risky — boring fails",
+      "Be a purple cow worth noticing and sharing"
+    ]
   },
   {
     "id": 109,
@@ -1523,7 +1748,12 @@
     "summary": "Happiness is not something you find - it's something you create. The mind is divided: the rational rider and the emotional elephant. The rider thinks they're in control, but the elephant usually goes where it wants. To change, you need to speak to the elephant (emotion), not just the rider (logic).",
     "source": "The Happiness Hypothesis by Jonathan Haidt",
     "color": "from-amber-500/80 to-orange-700/80",
-    "videoId": "t5N1dGNwIOI"
+    "videoId": "t5N1dGNwIOI",
+    "bullets": [
+      "The rational rider thinks they're in control but the emotional elephant drives",
+      "To change behavior, speak to the elephant (emotion), not just the rider",
+      "Meditation, gratitude, and connections are proven paths to happiness"
+    ]
   },
   {
     "id": 110,
@@ -1537,7 +1767,12 @@
     "summary": "Don't compete in a bloody red ocean of rivals - create a blue ocean of uncontested market space. Cirque du Soleil didn't beat Ringling Bros; they combined circus and theater to create something entirely new. Value innovation - simultaneously pursue differentiation and low cost. Make the competition irrelevant.",
     "source": "Blue Ocean Strategy by W. Chan Kim",
     "color": "from-blue-700/80 to-teal-900/80",
-    "videoId": "aqpxmCUd-RI"
+    "videoId": "aqpxmCUd-RI",
+    "bullets": [
+      "Don't compete in red oceans — create blue oceans of uncontested space",
+      "Value innovation = differentiation + low cost",
+      "Make the competition irrelevant by creating a new category"
+    ]
   },
   {
     "id": 111,
@@ -1551,7 +1786,12 @@
     "summary": "The present moment is all you ever have. The past is a memory; the future is an illusion. Psychological suffering comes from identifying with your mind - the voice in your head that's never satisfied. Watch your thoughts without judgment. Be present. When you're fully in the now, problems dissolve.",
     "source": "The Power of Now by Eckhart Tolle",
     "color": "from-lime-600/80 to-green-800/80",
-    "videoId": "qkCR2V21OJs"
+    "videoId": "qkCR2V21OJs",
+    "bullets": [
+      "The present moment is all you ever have",
+      "Suffering comes from identifying with the never-satisfied voice in your head",
+      "Watch your thoughts without judgment — be present"
+    ]
   },
   {
     "id": 112,
@@ -1565,7 +1805,12 @@
     "summary": "Every master follows the same path: apprenticeship (learning the rules), creative-active (breaking the rules), and mastery (transcending the rules). It takes ~20 years. The key is finding your life's task - that childhood curiosity or obsession that won't go away. Combine deep practice with social intelligence.",
     "source": "Mastery by Robert Greene",
     "color": "from-gray-600/80 to-zinc-800/80",
-    "videoId": "5YvMrxR3MrQ"
+    "videoId": "5YvMrxR3MrQ",
+    "bullets": [
+      "Every master follows: apprenticeship, creative-active, mastery",
+      "Find your life's task — that childhood obsession that won't go away",
+      "It takes ~20 years to achieve mastery"
+    ]
   },
   {
     "id": 113,
@@ -1579,7 +1824,12 @@
     "summary": "Startups aren't smaller versions of big companies - they're experiments. Build a Minimum Viable Product (MVP), measure how customers respond, learn, and pivot or persevere. The Build-Measure-Learn loop is the engine of growth. Stop building things nobody wants. Fail fast, learn faster.",
     "source": "The Lean Startup by Eric Ries",
     "color": "from-emerald-600/80 to-teal-800/80",
-    "videoId": "RS0oyb7sVp0"
+    "videoId": "RS0oyb7sVp0",
+    "bullets": [
+      "Startups are experiments, not smaller versions of big companies",
+      "Build-Measure-Learn is the engine of growth",
+      "Stop building things nobody wants"
+    ]
   },
   {
     "id": 114,
@@ -1593,7 +1843,12 @@
     "summary": "Spacetime curves around mass - that's gravity. Black holes are regions where gravity is so strong not even light escapes. The universe began as an infinitely dense singularity 13.8 billion years ago (Big Bang). It will end in heat death - maximum entropy. The universe has a beginning - and probably an end.",
     "source": "A Brief History of Time by Stephen Hawking",
     "color": "from-indigo-700/80 to-purple-900/80",
-    "videoId": "kEuU4g3T8Xg"
+    "videoId": "kEuU4g3T8Xg",
+    "bullets": [
+      "Spacetime curves around mass — that's gravity",
+      "Black holes trap even light",
+      "The universe had a beginning and will have an end"
+    ]
   },
   {
     "id": 115,
@@ -1607,7 +1862,12 @@
     "summary": "Don't trust advice from someone who doesn't have skin in the game. If they're not risking something, their opinion is cheap. People who take risks learn from reality; people who don't learn from theory. Symmetry of risk is the foundation of fairness.",
     "source": "Skin in the Game by Nassim Nicholas Taleb",
     "color": "from-red-600/80 to-rose-800/80",
-    "videoId": "ZmVYfoQH4Ww"
+    "videoId": "ZmVYfoQH4Ww",
+    "bullets": [
+      "Don't trust advice from someone without skin in the game",
+      "People who take risks learn from reality",
+      "Symmetry of risk is the foundation of fairness"
+    ]
   },
   {
     "id": 116,
@@ -1621,7 +1881,12 @@
     "summary": "The best persuaders don't just deliver a great message - they create the right context before delivering it. What you present first changes how everything else is received. Pre-suade by setting the frame.",
     "source": "Pre-Suasion by Robert Cialdini",
     "color": "from-teal-600/80 to-cyan-800/80",
-    "videoId": "5hMREyP3Q18"
+    "videoId": "5hMREyP3Q18",
+    "bullets": [
+      "What you present first changes how everything else is received",
+      "Pre-suade by setting the frame before delivering your message",
+      "The best persuaders create the right context first"
+    ]
   },
   {
     "id": 117,
@@ -1635,7 +1900,12 @@
     "summary": "Wholehearted living is about engaging in your life from a place of worthiness. You are enough - not despite your imperfections but because of them. Cultivate authenticity, self-compassion, and resilience. Let go of perfectionism, numbing, and what people think.",
     "source": "The Gifts of Imperfection by Brené Brown",
     "color": "from-amber-600/80 to-yellow-800/80",
-    "videoId": "E6qIjmTxj9o"
+    "videoId": "E6qIjmTxj9o",
+    "bullets": [
+      "You are enough — not despite your imperfections but because of them",
+      "Cultivate authenticity, self-compassion, and resilience",
+      "Belonging doesn't require you to change who you are"
+    ]
   },
   {
     "id": 118,
@@ -1649,7 +1919,12 @@
     "summary": "HeLa cells - taken from Henrietta Lacks without her knowledge in 1951 - became the first immortal human cell line. They've been used for polio vaccines, cancer research, gene mapping, and COVID vaccines. Trillions of her cells exist today. It's a story of medical progress, racial injustice, and who owns your body.",
     "source": "The Immortal Life of Henrietta Lacks by Rebecca Skloot",
     "color": "from-rose-500/80 to-pink-700/80",
-    "videoId": "Dh5r0S49q0E"
+    "videoId": "Dh5r0S49q0E",
+    "bullets": [
+      "HeLa cells were the first immortal human cell line",
+      "Henrietta Lacks' cells transformed medicine without her consent",
+      "A story of progress, injustice, and who owns your body"
+    ]
   },
   {
     "id": 119,
@@ -1663,7 +1938,12 @@
     "summary": "How you start your morning sets the tone for your entire day. The SAVERS routine: Silence (meditation), Affirmations, Visualization, Exercise, Reading, Scribing (journaling). Spend 5-10 minutes on each. Win the morning, win the day.",
     "source": "The Miracle Morning by Hal Elrod",
     "color": "from-sky-500/80 to-indigo-700/80",
-    "videoId": "fBpAoX8-Ljk"
+    "videoId": "fBpAoX8-Ljk",
+    "bullets": [
+      "How you start your morning sets the tone for your entire day",
+      "The SAVERS routine: Silence, Affirmations, Visualization, Exercise, Reading, Scribing",
+      "Win the morning, win the day"
+    ]
   },
   {
     "id": 120,
@@ -1677,7 +1957,12 @@
     "summary": "The key to a good life is not giving a f*ck about more things - it's giving a f*ck about fewer things, only the ones that truly matter. You can't be happy all the time; pain and uncertainty are part of growth. Choose your struggles wisely. Who you are is defined by what you're willing to struggle for.",
     "source": "The Subtle Art of Not Giving a F*ck by Mark Manson",
     "color": "from-yellow-600/80 to-orange-800/80",
-    "videoId": "A3v7LDaLu6E"
+    "videoId": "A3v7LDaLu6E",
+    "bullets": [
+      "The key to a good life is caring about fewer things",
+      "You can't be happy all the time — pain is part of growth",
+      "Who you are is defined by what you're willing to struggle for"
+    ]
   },
   {
     "id": 121,
@@ -1691,7 +1976,12 @@
     "summary": "Nothing is original. Every artist steals - the good ones steal well. Start copying your heroes, and in the process, you'll find your own voice. Be boring (have a day job) so you can be creative on your own terms. Creativity is subtraction - constraints breed creativity.",
     "source": "Steal Like an Artist by Austin Kleon",
     "color": "from-orange-500/80 to-red-600/80",
-    "videoId": "oww7oB9EjRs"
+    "videoId": "oww7oB9EjRs",
+    "bullets": [
+      "Nothing is original — every artist steals well",
+      "Copy your heroes to find your own voice",
+      "Creativity thrives on constraints"
+    ]
   },
   {
     "id": 122,
@@ -1705,7 +1995,12 @@
     "summary": "Vulnerability is not winning or losing - it's having the courage to show up when you can't control the outcome. The critic who sneers from the safe sidelines isn't the one whose opinion matters. It's the person in the arena, face marred by dust and sweat and blood, who dares greatly.",
     "source": "Daring Greatly by Brené Brown",
     "color": "from-violet-500/80 to-purple-700/80",
-    "videoId": "eXF3wFnw0iA"
+    "videoId": "eXF3wFnw0iA",
+    "bullets": [
+      "Vulnerability is courage — showing up when you can't control the outcome",
+      "The critic on the sidelines doesn't matter",
+      "It's the person in the arena who dares greatly"
+    ]
   },
   {
     "id": 123,
@@ -1719,7 +2014,12 @@
     "summary": "Manage your energy, not your time. The human body runs in 90-120 minute ultradian rhythms. Work in focused sprints, then fully disengage. Physical energy (eat, sleep, exercise) is the foundation. Emotional energy comes from positive relationships. Mental from focus. Spiritual from purpose.",
     "source": "The Power of Full Engagement by Jim Loehr",
     "color": "from-green-500/80 to-emerald-700/80",
-    "videoId": "Sn3pPEPcJE8"
+    "videoId": "Sn3pPEPcJE8",
+    "bullets": [
+      "Manage energy, not time — work in 90-minute sprints",
+      "Physical, emotional, mental, and spiritual energy all need management",
+      "Fully disengage between sprints"
+    ]
   },
   {
     "id": 124,
@@ -1733,7 +2033,12 @@
     "summary": "Richard Feynman approached physics - and life - with relentless curiosity and playfulness. He learned to pick locks, play samba drums, and crack safes at Los Alamos. He refused to take anything on authority. If he couldn't explain it simply, he didn't understand it well enough.",
     "source": "Surely You're Joking, Mr. Feynman by Richard Feynman",
     "color": "from-blue-600/80 to-cyan-800/80",
-    "videoId": "c8dPJqOQNnM"
+    "videoId": "c8dPJqOQNnM",
+    "bullets": [
+      "If you can't explain it simply, you don't understand it well enough",
+      "Approach everything with relentless curiosity and playfulness",
+      "Never take anything on authority alone"
+    ]
   },
   {
     "id": 125,
@@ -1747,7 +2052,12 @@
     "summary": "Habit 1: Be proactive. Habit 2: Begin with the end in mind. Habit 3: Put first things first. Habit 4: Think win-win. Habit 5: Seek first to understand. Habit 6: Synergize. Habit 7: Sharpen the saw. These principles are timeless and universal - effectiveness comes from character, not technique.",
     "source": "The 7 Habits of Highly Effective People by Stephen Covey",
     "color": "from-teal-600/80 to-emerald-800/80",
-    "videoId": "ktlSDi_PwYI"
+    "videoId": "ktlSDi_PwYI",
+    "bullets": [
+      "Effectiveness comes from character, not technique",
+      "Be proactive, begin with the end in mind, put first things first",
+      "Seek to understand before being understood"
+    ]
   },
   {
     "id": 126,
@@ -1761,7 +2071,12 @@
     "summary": "Why do some ideas survive and others die? The SUCCESs framework: Simple (find the core), Unexpected (grab attention), Concrete (make it tangible), Credible (give proof), Emotional (make people care), Stories (drive action). Urban legends stick because they have all six. Your ideas can too.",
     "source": "Made to Stick by Chip & Dan Heath",
     "color": "from-indigo-600/80 to-purple-800/80",
-    "videoId": "e6YcBEfUIGU"
+    "videoId": "e6YcBEfUIGU",
+    "bullets": [
+      "Simple, Unexpected, Concrete, Credible, Emotional, Stories",
+      "Urban legends stick because they hit all six",
+      "Your ideas can stick too"
+    ]
   },
   {
     "id": 127,
@@ -1775,7 +2090,12 @@
     "summary": "Writing is hard because rewriting is hard. The secret: cut every word that doesn't do work. Simplify. Strip every sentence to its cleanest components. The reader has an attention span of about 30 seconds - respect that. Good writing comes from rewriting. Style is who you are. Just be clear.",
     "source": "On Writing Well by William Zinsser",
     "color": "from-gray-600/80 to-zinc-800/80",
-    "videoId": "8f8Y7Iyt7Gg"
+    "videoId": "8f8Y7Iyt7Gg",
+    "bullets": [
+      "Write for the reader, not yourself",
+      "Cut every word that doesn't do work",
+      "Good writing comes from rewriting"
+    ]
   },
   {
     "id": 128,
@@ -1789,7 +2109,12 @@
     "summary": "Cognitive dissonance is the engine of self-justification. When we do something wrong, we change our beliefs to justify it rather than admit we were wrong. This is how good people do bad things - and convince themselves it was right. Awareness is the only defense.",
     "source": "Mistakes Were Made by Tavris & Aronson",
     "color": "from-red-500/80 to-orange-700/80",
-    "videoId": "tIiNDIgj7jc"
+    "videoId": "tIiNDIgj7jc",
+    "bullets": [
+      "We change our beliefs to justify our actions (cognitive dissonance)",
+      "Good people do bad things and convince themselves it was right",
+      "Awareness is the only defense against self-justification"
+    ]
   },
   {
     "id": 129,
@@ -1803,7 +2128,12 @@
     "summary": "All problems are interpersonal relationship problems. The fear of being disliked traps you. Freedom is being disliked by other people - that's the price you pay for living your own life. Separate your tasks from others' tasks. The courage to be disliked is the courage to be happy.",
     "source": "The Courage to Be Disliked by Kishimi & Koga",
     "color": "from-fuchsia-500/80 to-purple-700/80",
-    "videoId": "J1y4c3xlS1I"
+    "videoId": "J1y4c3xlS1I",
+    "bullets": [
+      "Freedom is being disliked by other people",
+      "Separate your tasks from others' tasks",
+      "The courage to be disliked is the courage to be happy"
+    ]
   },
   {
     "id": 130,
@@ -1817,7 +2147,12 @@
     "summary": "Life is difficult. Once you truly accept that, life becomes less difficult. Discipline is the toolset for solving life's problems - delayed gratification, acceptance of responsibility, dedication to truth, and balancing. Love is not a feeling - it's the choice to extend yourself for another's growth.",
     "source": "The Road Less Traveled by M. Scott Peck",
     "color": "from-amber-700/80 to-orange-900/80",
-    "videoId": "Tr4GMXeZGCQ"
+    "videoId": "Tr4GMXeZGCQ",
+    "bullets": [
+      "Life is difficult — accept this and it becomes less difficult",
+      "Discipline: delayed gratification, responsibility, truth, balance",
+      "Love is the choice to extend yourself for another's growth"
+    ]
   },
   {
     "id": 131,
@@ -1831,7 +2166,12 @@
     "summary": "Humans share 98.4% of our DNA with chimpanzees. We're the third chimpanzee, after common chimps and bonobos. What makes us different? Language, art, agriculture, and the capacity for genocide. Our big brains let us dominate the planet - and also destroy it.",
     "source": "The Third Chimpanzee by Jared Diamond",
     "color": "from-green-600/80 to-lime-800/80",
-    "videoId": "c6kFiN1DpZ4"
+    "videoId": "c6kFiN1DpZ4",
+    "bullets": [
+      "We share 98.4% of our DNA with chimpanzees",
+      "Language, art, agriculture, and genocide make us unique",
+      "Our big brains let us dominate and destroy"
+    ]
   },
   {
     "id": 132,
@@ -1845,7 +2185,12 @@
     "summary": "Rule 1: Stand up straight with your shoulders back. Rule 2: Treat yourself like someone you're responsible for helping. Rule 3: Make friends with people who want the best for you. Order and chaos are the fundamental forces. Meaning comes from taking responsibility beyond yourself.",
     "source": "12 Rules for Life by Jordan Peterson",
     "color": "from-teal-700/80 to-cyan-900/80",
-    "videoId": "Ws9NyA8_H3E"
+    "videoId": "Ws9NyA8_H3E",
+    "bullets": [
+      "Stand up straight with your shoulders back",
+      "Treat yourself like someone you're responsible for helping",
+      "Meaning comes from taking responsibility beyond yourself"
+    ]
   },
   {
     "id": 133,
@@ -1859,7 +2204,12 @@
     "summary": "At 36, neurosurgeon Paul Kalanithi was diagnosed with terminal lung cancer. He wrote about facing death with honesty, love, and courage. 'The question is not whether we live or die - but how we choose to live while we're alive.' His last words: 'To be willing to be broken by another.'",
     "source": "When Breath Becomes Air by Paul Kalanithi",
     "color": "from-slate-700/80 to-gray-900/80",
-    "videoId": "t4b67Uk71xQ"
+    "videoId": "t4b67Uk71xQ",
+    "bullets": [
+      "The question is not whether we live or die — but how we choose to live",
+      "Science gives knowledge; meaning comes from how we use it",
+      "To love is to be willing to be broken by another"
+    ]
   },
   {
     "id": 134,
@@ -1873,7 +2223,12 @@
     "summary": "Resistance is the enemy of creativity - the invisible force that keeps you from doing your work. It's fear, procrastination, self-doubt, distraction. The only way to beat Resistance is to sit down and do the work. Professional artists show up every day. Amateurs wait for inspiration. Be a professional.",
     "source": "The War of Art by Steven Pressfield",
     "color": "from-lime-500/80 to-green-700/80",
-    "videoId": "FjJm2Jgh0sA"
+    "videoId": "FjJm2Jgh0sA",
+    "bullets": [
+      "Resistance is the enemy of creativity",
+      "The only way to beat Resistance is to sit down and work",
+      "Professionals show up every day; amateurs wait for inspiration"
+    ]
   },
   {
     "id": 135,
@@ -1887,6 +2242,11 @@
     "summary": "Meditation isn't about escaping life - it's about being fully present in it. The only moment you ever have is now. Mindfulness is paying attention, on purpose, without judgment. Stop rushing. Stop multitasking. Sit still for 10 minutes. Enlightenment is showing up for your own life.",
     "source": "Wherever You Go, There You Are by Jon Kabat-Zinn",
     "color": "from-cyan-600/80 to-sky-800/80",
-    "videoId": "i7ncW5L7dMQ"
+    "videoId": "i7ncW5L7dMQ",
+    "bullets": [
+      "The only moment you ever have is now",
+      "Mindfulness is paying attention on purpose without judgment",
+      "Enlightenment is showing up for your own life"
+    ]
   }
 ]
