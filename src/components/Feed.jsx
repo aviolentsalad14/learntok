@@ -142,7 +142,7 @@ export default function Feed() {
               ))}
             </div>
 
-            <div className="flex-1 relative overflow-hidden">
+            <div className="flex-1 relative overflow-hidden touch-none">
               {noMatch ? (
                 <div className="h-full flex items-center justify-center px-6">
                   <div className="text-center">
@@ -167,20 +167,6 @@ export default function Feed() {
                   canGoPrev={currentIndex > 0}
                 />
               )}
-            </div>
-
-            <div className="absolute bottom-20 left-1/2 -translate-x-1/2 z-20 flex gap-1.5 max-w-[80vw] overflow-x-auto px-4">
-              {allCards.slice(0, Math.min(allCards.length, 50)).map((_, i) => (
-                <div key={i}
-                  className={`shrink-0 rounded-full transition-all ${
-                    i === currentIndex
-                      ? 'w-2.5 h-2.5 bg-white/70'
-                      : Math.abs(i - currentIndex) < 10
-                        ? 'w-1.5 h-1.5 bg-white/20'
-                        : 'w-0 h-0 opacity-0'
-                  }`}
-                />
-              ))}
             </div>
           </div>
         )}

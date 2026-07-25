@@ -10,8 +10,9 @@
     <link rel="manifest" href="/manifest.json" />
     <title>LearnTok</title>
     <style>
-      html, body, #root { height: 100%; margin: 0; overscroll-behavior: none; }
-      body { overflow: hidden; position: fixed; width: 100%; }
+      html, body, #root { height: 100%; margin: 0; overscroll-behavior: none; -webkit-overflow-scrolling: touch; }
+      body { overflow: hidden; position: fixed; width: 100%; top: 0; left: 0; right: 0; bottom: 0; }
+      * { -webkit-tap-highlight-color: transparent; }
     </style>
   </head>
   <body class="h-full bg-gray-900">
