@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "category": "📚 Book Bite",
+    "title": "The 80/20 Principle",
+    "summary": "80% of results come from 20% of efforts. Identify the vital few inputs that produce the majority of your outcomes, and focus there. The rest is noise.",
+    "source": "The 80/20 Principle by Richard Koch",
+    "color": "from-emerald-500/80 to-teal-700/80"
+  },
+  {
+    "id": 2,
+    "category": "🧠 Philosophy",
+    "title": "Stoicism — The Dichotomy of Control",
+    "summary": "Some things are within your control, others are not. Your opinions, actions, and desires — yes. Your reputation, wealth, and what others think — no. Peace comes from focusing only on what you can control.",
+    "source": "Epictetus, Enchiridion",
+    "color": "from-violet-500/80 to-purple-700/80"
+  },
+  {
+    "id": 3,
+    "category": "🔬 Science Snack",
+    "title": "Entropy — The Arrow of Time",
+    "summary": "The Second Law of Thermodynamics says entropy (disorder) always increases. That's why eggs scramble but never unscramble, and why time only moves forward. The universe is slowly running down.",
+    "source": "The Order of Time by Carlo Rovelli",
+    "color": "from-blue-500/80 to-cyan-700/80"
+  },
+  {
+    "id": 4,
+    "category": "🎤 Talk Snip",
+    "title": "Start With Why",
+    "summary": "People don't buy what you do, they buy why you do it. Great leaders and organizations — Apple, MLK, the Wright brothers — all think, act, and communicate from the inside out: Why → How → What.",
+    "source": "Simon Sinek, TEDxPugetSound",
+    "color": "from-orange-500/80 to-red-600/80"
+  },
+  {
+    "id": 5,
+    "category": "📚 Book Bite",
+    "title": "The 4-Hour Workweek — Lifestyle Design",
+    "summary": "Retirement is a worst-case-scenario insurance plan. Design your life now. Outsource, automate, and eliminate. Focus on 'what would you do if you had a million dollars?' — then find a way to do it today.",
+    "source": "The 4-Hour Workweek by Tim Ferriss",
+    "color": "from-rose-500/80 to-pink-700/80"
+  },
+  {
+    "id": 6,
+    "category": "🧠 Philosophy",
+    "title": "The Myth of Sisyphus",
+    "summary": "Life is absurd — we seek meaning in a universe that offers none. Camus's answer: embrace the absurd. Imagine Sisyphus happy. The struggle itself toward the heights is enough to fill a man's heart.",
+    "source": "The Myth of Sisyphus by Albert Camus",
+    "color": "from-slate-600/80 to-gray-800/80"
+  },
+  {
+    "id": 7,
+    "category": "🔬 Science Snack",
+    "title": "Photosynthesis — Electrons from Sunlight",
+    "summary": "Plants split water using sunlight, grabbing electrons to turn CO₂ into sugar. It's the most efficient solar panel on Earth — and the foundation of almost all life. Without it, there's no oxygen, no food, no us.",
+    "source": "What Is Life? by Nick Lane",
+    "color": "from-green-500/80 to-lime-700/80"
+  },
+  {
+    "id": 8,
+    "category": "🎤 Talk Snip",
+    "title": "The Power of Vulnerability",
+    "summary": "Vulnerability isn't weakness — it's the birthplace of connection, courage, and creativity. To be vulnerable is to show up and be seen, even when there are no guarantees. You cannot numb shame without numbing joy.",
+    "source": "Brené Brown, TEDxHouston",
+    "color": "from-amber-500/80 to-yellow-700/80"
+  },
+  {
+    "id": 9,
+    "category": "📚 Book Bite",
+    "title": "Atomic Habits — 1% Better Every Day",
+    "summary": "Habits are the compound interest of self-improvement. Tiny changes → remarkable results. Focus on systems, not goals. Make good habits obvious, attractive, easy, and satisfying. Your identity is your habits.",
+    "source": "Atomic Habits by James Clear",
+    "color": "from-indigo-500/80 to-blue-700/80"
+  },
+  {
+    "id": 10,
+    "category": "🧠 Philosophy",
+    "title": "The Trolley Problem",
+    "summary": "A runaway trolley is heading toward five people. You can pull a lever to divert it onto a side track, killing one person instead. Is it moral to act? This thought experiment exposes the tension between utilitarian ethics (save the most lives) and deontological ethics (don't intentionally harm).",
+    "source": "Philippa Foot / Judith Jarvis Thomson",
+    "color": "from-red-600/80 to-rose-800/80"
+  },
+  {
+    "id": 11,
+    "category": "🔬 Science Snack",
+    "title": "Quantum Tunneling — Walking Through Walls",
+    "summary": "At the quantum scale, particles can pass through barriers they seemingly shouldn't be able to cross. This isn't magic — it's probability. Your computer's transistors and the Sun's nuclear fusion both depend on quantum tunneling.",
+    "source": "Quantum: A Guide for the Perplexed by Jim Al-Khalili",
+    "color": "from-fuchsia-500/80 to-purple-700/80"
+  },
+  {
+    "id": 12,
+    "category": "🎤 Talk Snip",
+    "title": "Grit — Passion and Perseverance",
+    "summary": "Talent doesn't make you gritty. Grit is passion and perseverance for long-term goals. It's living life like a marathon, not a sprint. The gritty ones stick with their future, day in, day out — and that's what separates achievers from the rest.",
+    "source": "Angela Duckworth, TED Talk",
+    "color": "from-teal-500/80 to-emerald-700/80"
+  }
+]
