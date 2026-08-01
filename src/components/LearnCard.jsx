@@ -94,7 +94,7 @@ export default function LearnCard({
             {card.title}
           </h1>
 
-          {/* Summary */}
+          {/* Summary + bullets - expandable full view */}
           <div className="mb-2">
             <p className={`text-white/85 text-sm leading-relaxed ${expanded ? '' : 'line-clamp-3'}`}>
               {card.summary}
@@ -107,22 +107,30 @@ export default function LearnCard({
                 {expanded ? 'Show less' : 'Read more'}
               </button>
             )}
-          </div>
 
-          {/* Key takeaways - only for book cards */}
-          {card.bullets && card.bullets.length > 0 && (
-            <div className="mb-2">
-              <p className="text-white/50 text-[10px] uppercase tracking-wider mb-1">Key Takeaways</p>
-              <ul className="space-y-0.5">
-                {card.bullets.slice(0, 3).map((b, i) => (
-                  <li key={i} className="text-white/75 text-xs leading-relaxed flex gap-1.5">
-                    <span className="text-green-400 shrink-0 mt-0.5">&#x2022;</span>
-                    <span>{b}</span>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          )}
+            {/* Key takeaways / all points */}
+            {card.bullets && card.bullets.length > 0 && (
+              <div className={expanded ? 'mt-3 max-h-[50vh] overflow-y-auto pr-1 scrollbar-hide' : 'mt-2'}>
+                <p className="text-white/50 text-[10px] uppercase tracking-wider mb-1.5">All Points / Key Takeaways</p>
+                <ul className="space-y-1">
+                  {(expanded ? card.bullets : card.bullets.slice(0, 3)).map((b, i) => (
+                    <li key={i} className="text-white/80 text-xs leading-relaxed flex gap-1.5">
+                      <span className="text-green-400 shrink-0 mt-0.5">&#x2022;</span>
+                      <span>{b}</span>
+                    </li>
+                  ))}
+                </ul>
+                {!expanded && card.bullets.length > 3 && (
+                  <button
+                    onClick={(e) => { e.stopPropagation(); setExpanded(true) }}
+                    className="text-white/60 text-xs mt-1.5 hover:text-white"
+                  >
+                    Show all {card.bullets.length} points
+                  </button>
+                )}
+              </div>
+            )}
+          </div>
 
           {/* Source */}
           <p className="text-white/40 text-[11px] italic">
